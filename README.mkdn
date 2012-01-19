@@ -1,0 +1,11 @@
+Get Started Here
+================
+
+To initialize your local repository using the LiquidSmoothROMs ICS, use a command like this:
+
+    repo init -u git://github.com/LiquidSmoothROMs/android.git -b ics
+
+Then to sync up:
+
+    repo sync
+
