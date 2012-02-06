@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.0.3_r1"
+  <default revision="refs/heads/master"
            remote="aosp"
            sync-j="8" />
 
@@ -69,7 +69,7 @@
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/icu4c" name="LiquidSmoothROMs/android_external_icu4c" remote="github" revision="ics" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -90,7 +90,7 @@
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libpng" name="LiquidSmoothROMs/android_external_libpng" remote="github" revision="ics" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
@@ -148,7 +148,7 @@
   <project path="frameworks/base" name="LiquidSmoothROMs/android_frameworks_base" remote="github" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="LiquidSmoothROMs/android_frameworks_compile_slang" remote="github" revision="ics" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
@@ -214,9 +214,9 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="prebuilt" name="platform/prebuilt" />
-  <!--<project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />-->
-  <!--<project path="prebuilts/tools" name="platform/prebuilts/tools" />-->
+  <project path="prebuilt" name="LiquidSmoothROMs/android_prebuilt" remote="github" revision="ics" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="LiquidSmoothROMs/android_system_bluetooth" remote="github" revision="ics" />
   <project path="system/core" name="LiquidSmoothROMs/android_system_core" remote="github" revision="ics" />
