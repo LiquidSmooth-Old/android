@@ -19,7 +19,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="dalvik" name="LiquidSmoothROMs/android_dalvik" remote="github" revision="ics" />
+  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="LiquidSmoothROMs/android_device_htc_mecha" remote="github" revision="ics" />
