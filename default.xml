@@ -59,7 +59,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="LiquidSmoothROMs/android_external_freetype" remote="github" revision="ics" />
+  <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
@@ -184,6 +184,7 @@
   <project path="packages/apps/DSPManager" name="LiquidSmoothROMs/android_packages_apps_DSPManager" remote="github" revision="ics" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />  
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="LiquidSmoothROMs/android_packages_apps_Launcher2" remote="github" revision="ics" />
@@ -195,6 +196,7 @@
   <project path="packages/apps/Settings" name="LiquidSmoothROMs/android_packages_apps_Settings" remote="github" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />  
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="LiquidSmoothROMs/android_packages_input_LatinIME" remote="github" revision="ics" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
