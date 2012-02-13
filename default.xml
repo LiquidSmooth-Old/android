@@ -220,7 +220,7 @@
   <project path="system/core" name="LiquidSmoothROMs/android_system_core" remote="github" revision="ics" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/netd" name="LiquidSmoothROMs/android_system_netd" remote="github" revision="ics" />
   <project path="system/vold" name="LiquidSmoothROMs/android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
