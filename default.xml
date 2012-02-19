@@ -9,7 +9,7 @@
 
   <default revision="refs/heads/master"
            remote="aosp"
-           sync-j="8" />
+           sync-j="7" />
 
   <project path="build" name="LiquidSmoothROMs/android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -162,7 +162,6 @@
   <project path="hardware/libhardware" name="LiquidSmoothROMs/android_hardware_libhardware" remote="github" revision="ics" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="LiquidSmoothROMs/android_hardware_msm7k" remote="github" revision="ics" />
-  <project path="hardware/qcom/camera" name="LiquidSmoothROMs/android_hardware_qcom_camera" remote="github" revision="ics" />
   <project path="hardware/qcom/display" name="LiquidSmoothROMs/android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="LiquidSmoothROMs/android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="LiquidSmoothROMs/android_hardware_qcom_media" remote="github" revision="ics" />
@@ -195,6 +194,7 @@
   <project path="packages/apps/Settings" name="LiquidSmoothROMs/android_packages_apps_Settings" remote="github" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="LiquidSmoothROMs/android_packages_input_LatinIME" remote="github" revision="ics" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
