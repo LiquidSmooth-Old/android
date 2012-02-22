@@ -218,7 +218,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="LiquidSmoothROMs/android_system_bluetooth" remote="github" revision="ics" />
   <project path="system/core" name="LiquidSmoothROMs/android_system_core" remote="github" revision="ics" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="LiquidSmoothROMs/android_system_extras" remote="github" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="LiquidSmoothROMs/android_system_netd" remote="github" revision="ics" />
   <project path="system/su" name="LiquidSmoothROMs/android_system_su" remote="github" revision="ics" />
