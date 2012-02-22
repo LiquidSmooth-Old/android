@@ -190,8 +190,9 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="LiquidSmoothROMs/android_packages_apps_Phone" remote="github" revision="ics" />
-  <project path="packages/apps/Settings" name="LiquidSmoothROMs/android_packages_apps_Settings" remote="github" revision="ics" />
+  <project path="packages/apps/Settings" name="LiquidSmoothROMs/android_packages_apps_Settings" remote="github" revision="ics" />  
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Superuser" name="LiquidSmoothROMs/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -220,6 +221,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="LiquidSmoothROMs/android_system_netd" remote="github" revision="ics" />
+  <project path="system/su" name="LiquidSmoothROMs/android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="LiquidSmoothROMs/android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
