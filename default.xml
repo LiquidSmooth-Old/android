@@ -226,4 +226,6 @@
   <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
   <project path="vendor/samsung" name="LiquidSmoothROMs/proprietary_vendor_samsung" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="LiquidSmoothROMs/android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="LiquidSmoothROMs/android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
 </manifest>
