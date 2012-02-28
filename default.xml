@@ -9,7 +9,7 @@
 
   <default revision="refs/heads/master"
            remote="aosp"
-           sync-j="7" />
+           sync-j="8" />
 
   <project path="build" name="LiquidSmoothROMs/android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -159,12 +159,12 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="LiquidSmoothROMs/android_hardware_libhardware" remote="github" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="LiquidSmoothROMs/android_hardware_libhardware_legacy" remote="github" revision="ics" />
-  <project path="hardware/msm7k" name="LiquidSmoothROMs/android_hardware_msm7k" remote="github" revision="ics" />
-  <project path="hardware/qcom/display" name="LiquidSmoothROMs/android_hardware_qcom_display" remote="github" revision="ics" />
+  <project path="hardware/libhardware" name="TwistedPlayground/android_hardware_libhardware" remote="github" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="TwistedPlayground/android_hardware_libhardware_legacy" remote="github" revision="ics" />
+  <project path="hardware/msm7k" name="TwistedPlayground/android_hardware_msm7k" remote="github" revision="ics" />
+  <project path="hardware/qcom/display" name="TwistedPlayground/android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="LiquidSmoothROMs/android_hardware_qcom_gps" remote="github" revision="ics" />
-  <project path="hardware/qcom/media" name="LiquidSmoothROMs/android_hardware_qcom_media" remote="github" revision="ics" />
+  <project path="hardware/qcom/media" name="TwistedPlayground/android_hardware_qcom_media" remote="github" revision="ics" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
@@ -225,4 +225,6 @@
   <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
   <project path="vendor/samsung" name="LiquidSmoothROMs/proprietary_vendor_samsung" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="TwistedPlayground/android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="TwistedPlayground/android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
 </manifest>
