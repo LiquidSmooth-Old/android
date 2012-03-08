@@ -9,7 +9,7 @@
 
   <default revision="refs/heads/master"
            remote="aosp"
-           sync-j="7" />
+           sync-j="8" />
 
   <project path="build" name="LiquidSmoothROMs/android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -165,7 +165,7 @@
   <project path="hardware/qcom/display" name="LiquidSmoothROMs/android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="LiquidSmoothROMs/android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="LiquidSmoothROMs/android_hardware_qcom_media" remote="github" revision="ics" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ril" name="LiquidSmoothROMs/android_hardware_ril" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
