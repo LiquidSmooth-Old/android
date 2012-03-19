@@ -118,7 +118,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="ics-mr1" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -164,6 +164,7 @@
   <project path="hardware/libhardware" name="LiquidSmoothROMs/android_hardware_libhardware" remote="github" revision="ics" />
   <project path="hardware/libhardware_legacy" name="LiquidSmoothROMs/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <project path="hardware/msm7k" name="LiquidSmoothROMs/android_hardware_msm7k" remote="github" revision="ics" />
+  <project path="hardware/qcom/camera" name="LiquidSmoothROMs/android_hardware_qcom_camera" remote="github" revision="ics" />  
   <project path="hardware/qcom/display" name="LiquidSmoothROMs/android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="LiquidSmoothROMs/android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="LiquidSmoothROMs/android_hardware_qcom_media" remote="github" revision="ics" />
