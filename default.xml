@@ -189,6 +189,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LiquidControl" name="LiquidSmoothROMs/android_packages_apps_LiquidControl" remote="github" revision="ics" />
   <project path="packages/apps/Mms" name="LiquidSmoothROMs/android_packages_apps_Mms" remote="github" revision="ics" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="LiquidSmoothROMs/android_packages_apps_Phone" remote="github" revision="ics" />
@@ -215,7 +216,9 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
+  <project path="sdk" name="platform/sdk" revision="master" />
   <project path="system/bluetooth" name="LiquidSmoothROMs/android_system_bluetooth" remote="github" revision="ics" />
   <project path="system/core" name="LiquidSmoothROMs/android_system_core" remote="github" revision="ics" />
   <project path="system/extras" name="LiquidSmoothROMs/android_system_extras" remote="github" revision="ics" />
@@ -227,6 +230,7 @@
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
   <project path="vendor/samsung" name="LiquidSmoothROMs/proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="vendor/qcom/proprietary" name="LiquidSmoothROMs/android_vendor_qcom_proprietary" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/v8" name="LiquidSmoothROMs/android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="LiquidSmoothROMs/android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="LiquidSmoothROMs/android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />  
 </manifest>
