@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="LiquidSmoothROMs/android_dalvik" remote="github" revision="ics" />
-  <project path="development" name="platform/development" />
+  <project path="development" name="LiquidSmoothROMs/android_development" remote="github" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="LiquidSmoothROMs/android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="LiquidSmoothROMs/android_device_htc_msm7x30-common" remote="github" revision="ics" />
