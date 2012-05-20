@@ -24,7 +24,8 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="LiquidSmoothROMs/android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="LiquidSmoothROMs/android_device_htc_msm7x30-common" remote="github" revision="ics" />
-  <project path="device/samsung/maguro" name="LiquidSmoothROMs/android_device_samsung_maguro" remote="github" revision="ics" />  
+  <project path="device/motorola/triumph" name="LiquidSmoothROMs/android_device_motorola_triumph" remote="github" revision="ics" />
+  <project path="device/samsung/maguro" name="LiquidSmoothROMs/android_device_samsung_maguro" remote="github" revision="ics" />
   <project path="device/samsung/toro" name="LiquidSmoothROMs/android_device_samsung_toro" remote="github" revision="ics" />
   <project path="device/samsung/tuna" name="LiquidSmoothROMs/android_device_samsung_tuna" remote="github" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -189,6 +190,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="LiquidSmoothROMs/android_packages_apps_Launcher2" remote="github" revision="ics" />
   <project path="packages/apps/LiquidControl" name="LiquidSmoothROMs/android_packages_apps_LiquidControl" remote="github" revision="ics" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="LiquidSmoothROMs/android_packages_apps_Mms" remote="github" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -226,6 +228,7 @@
   <project path="system/vold" name="LiquidSmoothROMs/android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
+  <project path="vendor/motorola" name="LiquidSmoothROMs/proprietary_vendor_motorola" remote="github" revision="ics" />
   <project path="vendor/samsung" name="LiquidSmoothROMs/proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="vendor/qcom/proprietary" name="LiquidSmoothROMs/android_vendor_qcom_proprietary" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="LiquidSmoothROMs/android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
