@@ -5,29 +5,29 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://github.com/LiquidSmoothROMs/" />
 
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="LiquidSmoothROMs/android_build" remote="github" revision="ics">
+  <project path="build" name="android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="LiquidSmoothROMs/android_bionic" remote="github" revision="ics" />
+  <project path="bionic" name="android_bionic" remote="github" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="dalvik" name="LiquidSmoothROMs/android_dalvik" remote="github" revision="ics" />
-  <project path="development" name="LiquidSmoothROMs/android_development" remote="github" revision="ics" />
+  <project path="dalvik" name="android_dalvik" remote="github" revision="ics" />
+  <project path="development" name="android_development" remote="github" revision="ics" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/mecha" name="LiquidSmoothROMs/android_device_htc_mecha" remote="github" revision="ics" />
-  <project path="device/htc/msm7x30-common" name="LiquidSmoothROMs/android_device_htc_msm7x30-common" remote="github" revision="ics" />
-  <project path="device/motorola/triumph" name="LiquidSmoothROMs/android_device_motorola_triumph" remote="github" revision="ics" />
-  <project path="device/samsung/maguro" name="LiquidSmoothROMs/android_device_samsung_maguro" remote="github" revision="ics" />
-  <project path="device/samsung/toro" name="LiquidSmoothROMs/android_device_samsung_toro" remote="github" revision="ics" />
-  <project path="device/samsung/tuna" name="LiquidSmoothROMs/android_device_samsung_tuna" remote="github" revision="ics" />
+  <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
+  <project path="device/motorola/triumph" name="android_device_motorola_triumph" remote="github" revision="ics" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -42,7 +42,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="LiquidSmoothROMs/android_external_busybox" remote="github" revision="ics" />
+  <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
@@ -80,7 +80,7 @@
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="LiquidSmoothROMs/android_external_jpeg" remote="github" revision="ics" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="github" revision="ics" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -88,12 +88,12 @@
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libncurses" name="LiquidSmoothROMs/android_external_libncurses" remote="github" revision="ics" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="ics" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="LiquidSmoothROMs/android_external_libpng" remote="github" revision="ics" />
+  <project path="external/libpng" name="android_external_libpng" remote="github" revision="ics" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
@@ -123,10 +123,10 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="LiquidSmoothROMs/android_external_skia" remote="github" revision="ics" />
+  <project path="external/skia" name="android_external_skia" remote="github" revision="ics" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="LiquidSmoothROMs/android_external_sqlite" remote="github" revision="ics" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="github" revision="ics" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
@@ -137,9 +137,9 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="LiquidSmoothROMs/android_external_v8" remote="github" revision="ics" />
+  <project path="external/v8" name="android_external_v8" remote="github" revision="ics" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="LiquidSmoothROMs/android_external_webkit" remote="github" revision="ics" />
+  <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
@@ -147,11 +147,11 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="LiquidSmoothROMs/android_external_zlib" remote="github" revision="ics" />
-  <project path="frameworks/base" name="LiquidSmoothROMs/android_frameworks_base" remote="github" revision="ics" />
-  <project path="frameworks/compile/libbcc" name="LiquidSmoothROMs/android_frameworks_compile_libbcc" remote="github" revision="ics" />
+  <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="ics" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="github" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="LiquidSmoothROMs/android_frameworks_compile_slang" remote="github" revision="ics" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="github" revision="ics" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
@@ -162,54 +162,54 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="LiquidSmoothROMs/android_hardware_libhardware" remote="github" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="LiquidSmoothROMs/android_hardware_libhardware_legacy" remote="github" revision="ics" />
-  <project path="hardware/msm7k" name="LiquidSmoothROMs/android_hardware_msm7k" remote="github" revision="ics" /> 
-  <project path="hardware/qcom/display" name="LiquidSmoothROMs/android_hardware_qcom_display" remote="github" revision="ics" />
-  <project path="hardware/qcom/gps" name="LiquidSmoothROMs/android_hardware_qcom_gps" remote="github" revision="ics" />
-  <project path="hardware/qcom/media" name="LiquidSmoothROMs/android_hardware_qcom_media" remote="github" revision="ics" />
-  <project path="hardware/ril" name="LiquidSmoothROMs/android_hardware_ril" remote="github" revision="ics" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="ics" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics" /> 
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
-  <project path="manifest" name="LiquidSmoothROMs/android" remote="github" revision="ics" />
+  <project path="manifest" name="android" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AppWidgetPicker" name="LiquidSmoothROMs/android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
+  <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="LiquidSmoothROMs/android_packages_apps_Browser" remote="github" revision="ics" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="ics" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="LiquidSmoothROMs/android_packages_apps_Camera" remote="github" revision="ics" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="LiquidSmoothROMs/android_packages_apps_Contacts" remote="github" revision="ics" />
-  <project path="packages/apps/DeskClock" name="LiquidSmoothROMs/android_packages_apps_DeskClock" remote="github" revision="ics" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="ics" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="ics" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="LiquidSmoothROMs/android_packages_apps_Launcher2" remote="github" revision="ics" />
-  <project path="packages/apps/LiquidControl" name="LiquidSmoothROMs/android_packages_apps_LiquidControl" remote="github" revision="ics" />
-  <project path="packages/apps/Music" name="LiquidSmoothROMs/android_packages_apps_Music" remote="github" revision="ics" />  
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="ics" />
+  <project path="packages/apps/LiquidControl" name="android_packages_apps_LiquidControl" remote="github" revision="ics" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="ics" />  
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Mms" name="LiquidSmoothROMs/android_packages_apps_Mms" remote="github" revision="ics" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="LiquidSmoothROMs/android_packages_apps_Phone" remote="github" revision="ics" />
-  <project path="packages/apps/Settings" name="LiquidSmoothROMs/android_packages_apps_Settings" remote="github" revision="ics" />  
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="ics" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="ics" />  
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="LiquidSmoothROMs/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="github" revision="ics" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="LiquidSmoothROMs/android_packages_input_LatinIME" remote="github" revision="ics" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="github" revision="ics" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="LiquidSmoothROMs/android_packages_providers_ContactsProvider" remote="github" revision="ics" />
-  <project path="packages/providers/DownloadProvider" name="LiquidSmoothROMs/android_packages_providers_DownloadProvider" remote="github" revision="ics" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="ics" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="github" revision="ics" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="LiquidSmoothROMs/android_packages_providers_MediaProvider" remote="github" revision="ics" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="ics" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
@@ -220,24 +220,24 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="LiquidSmoothROMs/android_system_bluetooth" remote="github" revision="ics" />
-  <project path="system/core" name="LiquidSmoothROMs/android_system_core" remote="github" revision="ics" />
-  <project path="system/extras" name="LiquidSmoothROMs/android_system_extras" remote="github" revision="ics" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="ics" />
+  <project path="system/core" name="android_system_core" remote="github" revision="ics" />
+  <project path="system/extras" name="android_system_extras" remote="github" revision="ics" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="LiquidSmoothROMs/android_system_netd" remote="github" revision="ics" />
-  <project path="system/su" name="LiquidSmoothROMs/android_system_su" remote="github" revision="ics" />
-  <project path="system/vold" name="LiquidSmoothROMs/android_system_vold" remote="github" revision="ics" />
-  <project path="vendor/htc" name="LiquidSmoothROMs/proprietary_vendor_htc" remote="github" revision="ics" />
-  <project path="vendor/liquid" name="LiquidSmoothROMs/android_vendor_liquid" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="LiquidSmoothROMs/proprietary_vendor_motorola" remote="github" revision="ics" />
-  <project path="vendor/samsung" name="LiquidSmoothROMs/proprietary_vendor_samsung" remote="github" revision="ics" />
-  <project path="vendor/qcom/proprietary" name="LiquidSmoothROMs/android_vendor_qcom_proprietary" remote="github" revision="ics" />
-  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
-  <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
-  <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" remote="github" revision="ics" />
-  <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" remote="github" revision="ics" />  
+  <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
+  <project path="system/su" name="android_system_su" remote="github" revision="ics" />
+  <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="ics" />
+  <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="github" revision="ics" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="ics" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="ics" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="ics" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="ics" />  
 </manifest>
