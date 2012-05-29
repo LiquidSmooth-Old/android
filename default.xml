@@ -34,7 +34,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="LiquidSmoothROMs/android_external_bash" remote="github" revision="ics" />
+  <project path="external/bash" name="android_external_bash" remote="github" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -164,7 +164,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="ics" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="ics" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics" /> 
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
@@ -190,13 +190,13 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="ics" />
   <project path="packages/apps/LiquidControl" name="android_packages_apps_LiquidControl" remote="github" revision="ics" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="ics" />  
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="ics" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="ics" />  
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -239,5 +239,5 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="ics" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="ics" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="ics" />  
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="ics" />
 </manifest>
