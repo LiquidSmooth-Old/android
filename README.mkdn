@@ -1,11 +1,148 @@
-Get Started Here
-================
+LiquidSmooth
+===========
+To get started with LiquidSmoothROMs, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-To initialize your local repository using the LiquidSmoothROMs ICS, use a command like this:
+Register an account on our Gerrit
+---------------
+First you need to generate an sshkey
+
+At a terminal window type
+
+    ssh-keygen
+
+then hit enter through the prompts...
+
+browse to ~/.ssh by running:
+
+    cd ~/.ssh
+    
+and copy your sshkey with:
+
+    cat id_rsa.pub
+    
+copy what is shown to your clipboard
+
+Go to our [Gerrit Review Site](http://review.liquidsmooth.org)
+
+Upper right hand corner hit 'register'
+Select with google/yahoo account and signin
+Select a Name
+Select a username <!write this down!> a.k.a <gerrit.username>
+Paste the ssh key you got from the last step of 'Generate a sshkey'
+Your Done!!
+
+Initializing a Build Environment
+--------------------------
+
+Installing the JDK
+The Sun JDK is no longer in Ubuntu's main package repository. In order to download it, you need to add the appropriate repository and indicate to the system which JDK should be used.
+
+
+    sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
+    sudo apt-get update
+    sudo apt-get install sun-java6-jdk
+    
+    
+Installing required packages
+
+64-bit (recommended)
+
+
+    sudo apt-get install git-core gnupg flex bison gperf build-essential \
+    zip curl zlib1g-dev libc6-dev lib32ncurses5-dev ia32-libs \
+    x11proto-core-dev libx11-dev lib32readline-gplv2-dev lib32z-dev \
+    libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown \
+    libxml2-utils xsltproc
+    
+    
+On Ubuntu 10.10:
+
+
+    sudo ln -s /usr/lib32/mesa/libGL.so.1 /usr/lib32/mesa/libGL.so
+    
+On Ubuntu 11.10:
+
+
+    sudo ln -s /usr/lib/i386-linux-gnu/libX11.so.6 /usr/lib/i386-linux-gnu/libX11.so
+
+Create the Directories
+----------------------
+
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin 
+
+    mkdir -p ~/liquid
+
+
+Install the Repository
+----------------------
+
+Enter the following to download make executable the "repo" binary:
+
+    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+
+    chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+
+
+Now enter the following to initialize the repository:
+
+    cd ~/liquid
+
+Repositories:
+---------------
+
+Before you continue --> run this in the terminal
+
+	git config --global review.review.liquidsmooth.org.username <gerrit username>
 
     repo init -u git://github.com/LiquidSmoothROMs/android.git -b ics
 
-Then to sync up:
-
     repo sync
 
+
+Building the System
+---------------
+
+The basic sequence of build commands is as follows:
+Initialize
+Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
+
+
+    . build/envsetup.sh
+    lunch
+
+Enter the number of the build you want to start and press enter
+
+
+
+Build the Code:
+
+
+    make otaupdate
+
+
+Submitting Patches
+------------------
+Patches are always welcome!  Please submit your patches via LiquidSmooth Gerrit!
+You can do this by using these commands:
+
+    (From root android directory)
+    . build/envsetup.sh
+    (Go to the repo you are patching, make your changes and commit) and use
+    repo upload .
+    to upload your patches
+
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit [LiquidSmooth Code Review](http://review.liquidsmooth.org/)
+
+
+If you have any issues please contact blueharford through rootzwiki.com PM or liquid0624 and #liquids irc on freenode
