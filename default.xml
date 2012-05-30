@@ -5,8 +5,8 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="https://github.com/LiquidSmoothROMs/"
-           review="http://review.liquidsmooth.org" />
+           fetch="git://github.com/LiquidSmoothROMs/"
+           review="review.liquidsmooth.org" />
 
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
@@ -173,7 +173,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
-  <project path="manifest" name="android" remote="github" revision="ics" />
+  <project path="android" name="android" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
