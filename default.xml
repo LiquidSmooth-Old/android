@@ -8,7 +8,7 @@
            fetch="git://github.com/LiquidSmoothROMs/"
            review="review.liquidsmooth.org" />
 
-  <default revision="refs/tags/android-4.0.4_r2.1"
+  <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
            sync-j="8" />
 
