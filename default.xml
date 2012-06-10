@@ -38,7 +38,7 @@
   <project path="external/bash" name="android_external_bash" remote="github" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
