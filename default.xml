@@ -26,7 +26,6 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
-  <project path="device/motorola/triumph" name="android_device_motorola_triumph" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="ics" />
@@ -192,7 +191,6 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="ics" />
-  <project path="packages/apps/LiquidControl" name="android_packages_apps_LiquidControl" remote="github" revision="ics" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="ics" />
@@ -222,7 +220,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" />
+  <project path="sdk" name="android_sdk" remote="github" revision="ics" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="ics" />
   <project path="system/core" name="android_system_core" remote="github" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="ics" />
@@ -232,7 +230,6 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
