@@ -38,8 +38,8 @@
   <project path="external/bash" name="android_external_bash" remote="github" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="ics" />
+  <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" remote="github" revision="ics" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -56,7 +56,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/embunit" name="android_external_embunit" remote="github" revision="ics" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
@@ -99,7 +99,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/llvm" name="android_external_llvm" remote="github" revision="ics" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
@@ -112,7 +112,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openssl" name="android_external_openssl" remote="github" revision="ics" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="android_external_ping" remote="github" revision="ics" />
@@ -135,7 +135,7 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="android_external_tcpdump" remote="github" revision="ics" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="android_external_tremolo" remote="github" revision="ics" />
