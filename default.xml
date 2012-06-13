@@ -171,6 +171,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics" />  
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics" />
@@ -218,7 +219,7 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="android_prebuilt" remote="github" revision="ics" />  
   <project path="sdk" name="android_sdk" remote="github" revision="ics" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="ics" />
   <project path="system/core" name="android_system_core" remote="github" revision="ics" />
