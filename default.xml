@@ -231,7 +231,7 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="android_vendor_motorola" remote="github" revision="ics" />  
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />  
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
