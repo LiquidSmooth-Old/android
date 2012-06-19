@@ -47,7 +47,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="android_external_chromium" remote="github" revision="ics" />
-  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/clang" name="android_external_clang" remote="github" revision="ics" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -118,7 +118,7 @@
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="android_external_ping" remote="github" revision="ics" />
-  <project path="external/ping6" name="platform/external/ping6" />
+  <project path="external/ping6" name="android_external_ping6" remote="github" revision="ics" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
