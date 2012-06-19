@@ -69,7 +69,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="android_external_qemu" remote="github" revision="ics" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="android_external_gtest" remote="github" revision="ics" />
   <project path="external/guava" name="platform/external/guava" />
@@ -231,7 +231,7 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="android_vendor_motorola" remote="github" revision="ics" />  
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />  
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="github" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="github" revision="ics" />
