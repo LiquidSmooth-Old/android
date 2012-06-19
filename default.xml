@@ -69,7 +69,6 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/qemu" name="android_external_qemu" remote="github" revision="ics" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="android_external_gtest" remote="github" revision="ics" />
   <project path="external/guava" name="platform/external/guava" />
@@ -122,6 +121,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/qemu" name="android_external_qemu" remote="github" revision="ics" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
