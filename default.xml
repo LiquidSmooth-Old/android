@@ -26,6 +26,7 @@
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="github" revision="ics" />
+  <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="ics" />
@@ -144,6 +145,7 @@
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
+  <project path="external/wireless-tools" name="android_external_wireless-tools" remote="github" revision="ics" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="ics" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="ics" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="ics" />
@@ -174,6 +176,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics" />  
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
