@@ -201,6 +201,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="ics" />
+  <project path="packages/apps/Stats" name="android_packages_apps_Stats" remote="github" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
