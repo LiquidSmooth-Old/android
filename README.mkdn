@@ -101,7 +101,7 @@ Before you continue --> run this in the terminal
 
 	git config --global review.review.liquidsmooth.org.username <gerrit username>
 
-    repo init -u git://github.com/LiquidSmoothROMs/android.git -b ics
+    repo init -u git://github.com/LiquidSmoothROMs/android.git -b jb
 
     repo sync
 
