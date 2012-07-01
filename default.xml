@@ -22,6 +22,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="github" revision="ics" />
   <project path="development" name="android_development" remote="github" revision="ics" />
+  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="github" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
@@ -234,6 +235,7 @@
   <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
+  <project path="vendor/asus" name="vendor_asus" remote="github" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />  
