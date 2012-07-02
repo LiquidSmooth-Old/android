@@ -180,6 +180,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics" />
+  <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="github" revision="ics" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
