@@ -25,6 +25,7 @@
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="github" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
+  <project path="device/htc/ville" name="android_device_htc_ville" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="ics" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="github" revision="ics" />
@@ -32,6 +33,7 @@
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="github" revision="ics" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="github" revision="ics" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" />
