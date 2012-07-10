@@ -255,7 +255,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="github" revision="jb" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jb" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="github" revision="jb" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jb" />
@@ -296,7 +296,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="android_sdk" remote="github" revision="jb" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="platform/sdk" remote="github" revision="jb" />
+  <project path="sdk" name="android_sdk" remote="github" revision="jb" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="jb" />
   <project path="system/core" name="android_system_core" remote="github" revision="jb" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jb" />
