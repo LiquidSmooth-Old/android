@@ -315,6 +315,6 @@
   <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="github" revision="jb" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jb" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="ib" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="jb" />
 </manifest>
