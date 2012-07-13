@@ -303,7 +303,6 @@
   <project path="system/media" name="android_system_media" remote="github" revision="jb" />
   <project path="system/netd" name="android_system_netd" remote="github" revision="jb" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="android_system_su" remote="github" revision="jb" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="jb" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="jb" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jb" />
