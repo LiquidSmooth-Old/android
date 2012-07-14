@@ -37,6 +37,9 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
+  <project path="device/samsung/msm8960" name="android_device_samsung_msm8960" remote="github" revision="jb" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="github" revision="jb" />
+  <project path="device/samsung/d2-common" name="android_device-samsung_d2-common" remote="github" revision="jb" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jb" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-mock" name="platform/external/android-mock" />
