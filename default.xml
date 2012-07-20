@@ -10,7 +10,7 @@
 		   
   <default revision="jb-dev"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="android_build" remote="github" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -20,7 +20,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="github" revision="jb" />
   <project path="development" name="android_development" remote="github" revision="jb" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jb" />
@@ -29,15 +28,9 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" />
-  <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jb" />
-  <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="github" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="github" revision="jb" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="github" revision="jb" />
