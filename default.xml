@@ -24,6 +24,7 @@
   <project path="development" name="android_development" remote="github" revision="jb" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jb" />
   <project path="device/common" name="device/common" />
+  <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="github" revision="jb" />
