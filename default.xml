@@ -31,6 +31,7 @@
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="github" revision="ics" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="github" revision="ics" />
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="github" revision="ics" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="github" revision="ics" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="github" revision="ics" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="github" revision="ics" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="github" revision="ics" />
