@@ -287,9 +287,10 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="prebuilt/sdk" name="android_sdk" remote="github" revision="jb" />
+  <project path="sdk" name="android_sdk" remote="github" revision="jb" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="jb" />
   <project path="system/core" name="android_system_core" remote="github" revision="jb" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jb" />
