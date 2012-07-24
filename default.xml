@@ -22,16 +22,17 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="github" revision="ics" />
   <project path="development" name="android_development" remote="github" revision="ics" />
-  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="github" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="ics" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="github" revision="ics" />
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="ics" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="ics" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="ics" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="github" revision="ics" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="github" revision="ics" />
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="github" revision="ics" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="github" revision="ics" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="github" revision="ics" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="github" revision="ics" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="github" revision="ics" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="ics" />
@@ -93,6 +94,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/kexec-tools" name="android_external_kexec-tools" remote="github" revision="ics" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
@@ -151,7 +153,6 @@
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wireless-tools" name="android_external_wireless-tools" remote="github" revision="ics" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="ics" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="ics" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="ics" />
@@ -184,6 +185,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="github" revision="ics" />
+  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="github" revision="android-msm-ville-3.0" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="github" revision="ics" />
@@ -201,15 +204,14 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="ics" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="ics" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="ics" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="github" revision="ics" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -238,7 +240,7 @@
   <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
-  <project path="vendor/asus" name="vendor_asus" remote="github" revision="ics" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="github" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="github" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="github" revision="ics" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="ics" />  
