@@ -24,7 +24,6 @@
   <project path="development" name="android_development" remote="github" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jb" />
-  <project path="device/htc/mecha" name="android_device_htc_mecha" remote="github" revision="jb" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="github" revision="jb" />
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="jb" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="jb" />
@@ -239,6 +238,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="jb" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="jb" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jb" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jb" />
@@ -305,9 +305,8 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="github" revision="jb" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="jb" />
   <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="github" revision="jb" />
-  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="github" revision="jb" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="ics" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="ics" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="ics" />
-  </manifest>
+</manifest>
