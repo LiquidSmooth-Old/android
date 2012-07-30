@@ -124,7 +124,7 @@ Enter the number of the build you want to start and press enter
 Build the Code:
 
 
-    make otaupdate
+    make liquid
 
 
 Submitting Patches
