@@ -222,6 +222,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="github" revision="jb" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="github" revision="jb" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="github" revision="android-msm-ville-3.0-jb" />
   <project path="libcore" name="android_libcore" remote="github" revision="jb" />
   <project path="libnativehelper" name="platform/libnativehelper" />
