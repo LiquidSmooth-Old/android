@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/LiquidSmoothROMs/" />
+           fetch="git://github.com/LiquidSmooth/" />
 
   <default revision="jb-release"
            remote="aosp"
