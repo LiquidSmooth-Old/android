@@ -108,7 +108,6 @@
   <project path="external/jsr305" name="android_external_jsr305" remote="cm" revision="jellybean" />
   <project path="external/junit" name="android_external_junit" remote="cm" revision="jellybean" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="cm" revision="jellybean" />
-  <project path="external/kexec-tools" name="android_external_kexec-tools" remote="ls" revision="jb" />
   <project path="external/libffi" name="android_external_libffi" remote="cm" revision="jellybean" />
   <project path="external/libgsm" name="android_external_libgsm" remote="cm" revision="jellybean" />
   <project path="external/liblzf" name="android_external_liblzf" remote="cm" revision="jellybean" />
