@@ -221,9 +221,9 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ls" revision="jb" />
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="ls" revision="jb" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="ls" revision="jb" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="jellybean" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="jellybean" />
   <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="android_libnativehelper" remote="cm" revision="jellybean" />
   <project path="ndk" name="platform/ndk" />
