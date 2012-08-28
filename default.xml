@@ -154,6 +154,7 @@
   <project path="external/protobuf" name="android_external_protobuf" remote="cm" revision="jellybean" />
   <project path="external/qemu" name="android_external_qemu" remote="cm" revision="jellybean" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" remote="cm" revision="jellybean" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="jellybean" />
   <project path="external/quake" name="android_external_quake" remote="cm" revision="jellybean" />
   <project path="external/regex-re2" name="android_external_regex-re2" remote="cm" revision="jellybean" />
   <project path="external/replicaisland" name="android_external_replicaisland" remote="cm" revision="jellybean" />
