@@ -37,7 +37,6 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="ls" revision="jb" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb" />
   <project path="external/aac" name="android_external_aac" remote="cm" revision="jellybean" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="jellybean" />
@@ -230,7 +229,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" revision="jellybean" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="ls" revision="jb" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="cm" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="jellybean" />
@@ -302,7 +301,7 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="android_system_security" remote="cm" revision="jellybean" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="ls" revision="jb" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="jellybean" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="jellybean" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
