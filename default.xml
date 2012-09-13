@@ -29,6 +29,8 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb" />
+  <project path="device/htc/mecha" name="android_device_htc_mecha" remote="ls" revision="jb" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="ls" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb" />
@@ -222,6 +224,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="jellybean" />
+  <project path="kernel/htc/mecha" name="android_kernel_htc_mecha" remote="ls" revision="jb" /> 
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="jellybean" />
@@ -297,7 +300,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="jellybean" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
-  <project path="system/core" name="android_system_core" remote="cm" revision="jellybean" />
+  <project path="system/core" name="android_system_core" remote="ls" revision="jb" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="jellybean" />
   <project path="system/media" name="android_system_media" remote="cm" revision="jellybean" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
@@ -305,9 +308,11 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="jellybean" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="jellybean" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ls" revision="jb" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb" />
+  <project path="vendor/qcom/proprietary" name="proprietary_vendor_qcom" remote="ls" revision="jb" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="jellybean" />
