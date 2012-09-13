@@ -173,6 +173,7 @@
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
+  <project path="kernel/htc/mecha" name="android_kernel_htc_mecha" remote="ls" revision="ics" /> 
   <project path="libcore" name="android_libcore" remote="cm" revision="ics" />
   <project path="ndk" name="android_ndk" remote="cm" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
