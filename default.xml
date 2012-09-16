@@ -275,29 +275,29 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="android_prebuilt" remote="ls" revision="jb" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" />
+  <project path="pdk" name="android_pdk" remote="cm" revision="jellybean" />
+  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="cm" revision="jellybean" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/tools" name="android_prebuilts_tools" remote="cm" revision="jellybean" />
   <project path="sdk" name="android_sdk" remote="cm" revision="jellybean" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="ls" revision="jb" />
