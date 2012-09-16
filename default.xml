@@ -218,7 +218,7 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="prebuilt" name="android_prebuilt" remote="ls" revision="ics" />
+  <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="android_sdk" remote="cm" revision="ics" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="ics" />
   <project path="system/core" name="android_system_core" remote="ls" revision="ics" />
