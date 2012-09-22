@@ -34,7 +34,7 @@
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="ls" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="master" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="ls" revision="jb" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
