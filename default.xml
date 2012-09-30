@@ -30,7 +30,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb" />
-  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="ls" revision="jb" />
+  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="ls" revision="jellybean" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="ls" revision="jb" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="ls" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
