@@ -35,7 +35,6 @@
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="ls" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="jellybean" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb" />
@@ -47,7 +46,6 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="ls" revision="jb" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb" />
   <project path="external/aac" name="android_external_aac" remote="cm" revision="jellybean" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="jellybean" />
