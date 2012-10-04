@@ -272,7 +272,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="ls" revision="jb" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" revision="jellybean" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="jellybean" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="ls" revision="jb" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" revision="jellybean" />
   <project path="packages/providers/DrmProvider" name="android_packages_providers_DrmProvider" remote="cm" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="jellybean" />
