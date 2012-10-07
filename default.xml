@@ -120,6 +120,7 @@
   <project path="external/libgsm" name="android_external_libgsm" remote="cm" revision="jellybean" />
   <project path="external/liblzf" name="android_external_liblzf" remote="cm" revision="jellybean" />
   <project path="external/libmtp" name="android_external_libmtp" remote="cm" revision="jellybean" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="jellybean" />
   <project path="external/libnl-headers" name="android_external_libnl-headers" remote="cm" revision="jellybean" />
   <project path="external/libpcap" name="android_external_libpcap" remote="cm" revision="jellybean" />
