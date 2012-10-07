@@ -231,6 +231,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="jellybean" />
+  <project path="kernel/asus/tf101" name="android_kernel_asus_tf101" remote="ls" revision="master" />
   <project path="kernel/asus/tf700t" name="android_kernel_asus_tf700t" remote="cm" revision="jellybean" />
   <project path="kernel/htc/mecha" name="android_kernel_htc_mecha" remote="ls" revision="jb" /> 
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
