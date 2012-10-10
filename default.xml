@@ -13,7 +13,7 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
-  <default revision="jb-release"
+  <default revision="jb-mr0-release"
            remote="aosp"
            sync-j="7" />
 
