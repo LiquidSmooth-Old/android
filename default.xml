@@ -317,6 +317,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="jellybean" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="jellybean" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="jellybean" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb" />
