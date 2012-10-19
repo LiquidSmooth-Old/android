@@ -72,7 +72,6 @@
   <project path="external/dexmaker" name="android_external_dexmaker" remote="cm" revision="jellybean" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="cm" revision="jellybean" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cm" revision="jellybean" />
-  <project path="external/doclava" name="android_external_doclava" remote="ls" revision="jb" />
   <project path="external/dropbear" name="android_external_dropbear" remote="cm" revision="jellybean" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ls" revision="jb" />
   <project path="external/easymock" name="android_external_easymock" remote="cm" revision="jellybean" />
