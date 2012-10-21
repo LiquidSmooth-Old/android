@@ -66,7 +66,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" remote="cm" revision="jellybean" />
+  <project path="external/chromium" name="android_external_chromium" remote="cm" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
@@ -231,7 +231,6 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="jellybean" />
   <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
