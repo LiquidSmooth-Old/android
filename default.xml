@@ -232,12 +232,6 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="jellybean" />
-  <project path="kernel/asus/tf101" name="android_kernel_asus_tf101" remote="ls" revision="master" />
-  <project path="kernel/asus/tf700t" name="android_kernel_asus_tf700t" remote="cm" revision="jellybean" /> 
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
-  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="jellybean" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="jellybean" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="jb" />
   <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -245,7 +239,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="jellybean" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="cm" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="ls" revision="jb" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
