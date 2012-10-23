@@ -31,6 +31,7 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="ls" revision="jb" />
+  <project path="device/asus/tf101-3g" name="android_device_asus_tf101-3g" remote="ls" revision="master" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
