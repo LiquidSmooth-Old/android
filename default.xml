@@ -26,6 +26,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/mecha" name="android_device_htc_mecha" remote="ls" revision="ics" />
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="ls" revision="ics" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="ls" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -51,7 +52,7 @@
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cm" revision="ics" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="android_external_dropbear" remote="cm" revision="ics" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ls" revision="ics" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="ics" />
   <project path="external/easymock" name="android_external_easymock" remote="cm" revision="ics" />
   <project path="external/elfutils" name="android_external_elfutils" remote="cm" revision="ics" />
   <project path="external/embunit" name="android_external_embunit" remote="cm" revision="ics" />
@@ -161,9 +162,10 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/alsa_sound" name="android_hardware_alsa_sound" remote="cm" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="ics" />
+  <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote="cm" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="ls" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="ics" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="ics" />
@@ -173,7 +175,8 @@
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
-  <project path="kernel/htc/mecha" name="android_kernel_htc_mecha" remote="ls" revision="ics" /> 
+  <project path="kernel/htc/mecha" name="android_kernel_htc_mecha" remote="ls" revision="ics" />
+  <project path="kernel/hp/tenderloin" name="android_kernel_hp_tenderloin" remote="ls" revision="ics" />
   <project path="libcore" name="android_libcore" remote="cm" revision="ics" />
   <project path="ndk" name="android_ndk" remote="cm" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -228,6 +231,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="ls" revision="ics" />
+  <project path="vendor/hp" name="proprietary_vendor_hp" remote="ls" revision="ics" />
   <project path="vendor/qcom/proprietary" name="proprietary_vendor_qcom" remote="ls" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="cm" revision="ics" />
