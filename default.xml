@@ -15,6 +15,7 @@
 
   <default revision="jb-mr0-release"
            remote="aosp"
+           sync-c="true"
            sync-j="7" />
 
   <project path="build" name="android_build" remote="ls" revision="jb">
@@ -317,6 +318,7 @@
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="jellybean" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
