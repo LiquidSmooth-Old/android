@@ -44,7 +44,7 @@
   <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="ls" revision="jb" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="jellybean" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb" />
   <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="ls" revision="jb" />
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="ls" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb" />
