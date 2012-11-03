@@ -32,6 +32,7 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" remote="ls" revision="jb" />
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="ls" revision="jellybean" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
@@ -233,6 +234,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
+  <project path="kernel/hp/tenderloin" name="android_kernel_hp_tenderloin" remote="ls" revision="ics" />
   <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -315,6 +317,7 @@
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="jellybean" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
+  <project path="vendor/hp" name="proprietary_vendor_hp" remote="tm" revision="jellybean" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
