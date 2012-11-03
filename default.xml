@@ -218,6 +218,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="jellybean" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
