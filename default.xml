@@ -70,7 +70,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="android_external_chromium" remote="cm" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="jellybean" />
   <project path="external/dbus" name="platform/external/dbus" />
@@ -140,14 +139,12 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="cm" revision="jellybean" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/naver-fonts" name="android_external_naver-fonts" remote="cm" revision="jellybean" />
   <project path="external/netcat" name="android_external_netcat" remote="cm" revision="jellybean" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -251,6 +248,7 @@
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="jellybean" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="jellybean" />
+  <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" revision="jellybean" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" revision="jellybean" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="ls" revision="jb" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="jb" />
@@ -259,6 +257,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb" />
+  <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="jellybean" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="jellybean" />
