@@ -231,7 +231,6 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
-  <project path="kernel/hp/tenderloin" name="android_kernel_hp_tenderloin" remote="ls" revision="ics" />
   <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
