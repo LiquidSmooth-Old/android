@@ -37,6 +37,7 @@
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
+  <project path="device/samsung/d2usc" name="android_device_samsung_usc" remote="ls" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="ls" revision="jb" />
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="ls" revision="jb" />
