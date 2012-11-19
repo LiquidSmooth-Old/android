@@ -1,5 +1,5 @@
-LiquidSmooth
-============
+LiquidSmooth Source
+===================
 To get started with LiquidSmooth, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b jb
+    repo init -u git://github.com/LiquidSmooth/android.git -b jb2
 
     repo sync
 
@@ -48,7 +48,7 @@ Enter the number of the build you want to start and press enter
 
 Build the Code:
 
-    make liquid -j4 = Run Squisher/Run Opticharger
-    make otapackage -j4 = No Squisher/No Opticharger
+    make liquid -j7 = Run Squisher/Run Opticharger
+    make otapackage -j7 = No Squisher/No Opticharger
 
-If you have any issues please contact liquid0624 in channel: #liquids server: irc.freenode.net
+If you have any issues/questions please contact us in channel: #liquids server: irc.freenode.net
