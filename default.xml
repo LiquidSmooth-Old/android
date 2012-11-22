@@ -339,7 +339,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="mr1-staging" />
-  <project path="system/core" name="android_system_core" remote="ls" revision="jb2" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="mr1-staging" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="mr1-staging" />
