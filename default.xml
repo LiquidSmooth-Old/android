@@ -33,6 +33,7 @@
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="ls" revision="jellybean" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
+  <project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="ls" revision="jb2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb" />
