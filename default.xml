@@ -33,7 +33,7 @@
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="ls" revision="jellybean" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="ls" revision="jb2" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
@@ -44,11 +44,9 @@
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb2" />
-  <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="ls" revision="jb" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
+  <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb" />
+  <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
   <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="ls" revision="jb" />
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="ls" revision="jb" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb" />
@@ -223,7 +221,7 @@
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="mr1-staging" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="mr1-staging" />
+  <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="mr1-staging" />
@@ -241,13 +239,13 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="mr1-staging" />
   <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="mr1-staging" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="mr1-staging" />
+  <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="mr1-staging" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="mr1-staging" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="mr1-staging" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="mr1-staging" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="mr1-staging" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="mr1-staging" />
+  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="mr1-staging" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="mr1-staging" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="mr1-staging" />
@@ -262,6 +260,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="mr1-staging" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="mr1-staging" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="mr1-staging" />
+  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
