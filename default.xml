@@ -345,7 +345,7 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb2" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb-mr1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="mr1-staging" />
