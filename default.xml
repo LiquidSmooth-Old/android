@@ -347,7 +347,7 @@
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb2" />
   <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="mr1-staging" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="mr1-staging" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="mr1-staging" />
