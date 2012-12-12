@@ -18,7 +18,7 @@
 
   <default revision="jb-mr1-release"
            remote="aosp"
-           sync-j="7" />
+           sync-j="4" />
 
   <project path="build" name="android_build" remote="ls" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
