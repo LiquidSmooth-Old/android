@@ -47,7 +47,7 @@
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="mr1-staging" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="mr1-staging" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
