@@ -31,7 +31,6 @@
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.1" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
-  <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
