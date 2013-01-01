@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
+  <project path="bionic" name="android_bionic" remote="ls" revision="jb2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -31,21 +31,22 @@
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
-  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb2" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb2" />
-  <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
+  <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb2" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb2" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb2" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb2" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb2" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -151,6 +152,7 @@
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
   <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
