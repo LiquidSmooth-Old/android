@@ -30,7 +30,7 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb2" />
   <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="ls" revision="jb2" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb2" />
@@ -41,9 +41,9 @@
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb2" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb2" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb2" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb2" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb2" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb2" />
