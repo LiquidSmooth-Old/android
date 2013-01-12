@@ -109,7 +109,7 @@
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/auexternal/iptables" />
+  <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.1" />
   <project path="external/javassist" name="platform/external/javassist" />
