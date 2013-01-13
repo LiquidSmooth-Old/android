@@ -283,7 +283,6 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
