@@ -28,7 +28,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.1" />
-  <project path="development" name="development" remote="ls" revision="jb2" />
+  <project path="development" name="android_development" remote="ls" revision="jb2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
@@ -257,7 +257,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="ub" revision="jb-mr1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-  <project path="libcore" name="libcore" remote="ls" revision="jb2" />
+  <project path="libcore" name="android_libcore" remote="ls" revision="jb2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
