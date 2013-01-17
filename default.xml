@@ -72,7 +72,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -172,6 +172,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.1" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
@@ -307,6 +308,7 @@
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
