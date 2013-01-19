@@ -31,7 +31,6 @@
   <project path="development" name="android_development" remote="ls" revision="jb2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
-  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" remote="cm" revision="cm-10.1" /> 
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb2" />
@@ -174,7 +173,6 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.1" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
@@ -228,7 +226,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="frameworks/rs" name="frameworks_rs" remote="ub" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
