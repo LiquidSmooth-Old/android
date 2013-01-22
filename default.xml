@@ -51,6 +51,7 @@
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="ls" revision="jb2" />
+  <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="ls" revision="jb2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb2" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
