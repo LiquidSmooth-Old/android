@@ -169,7 +169,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="external_openssh" remote="ub" revision="jb-mr1" />
   <project path="external/openssl" name="external_openssl" remote="ub" revision="jb-mr1" />
-  <project path="external/oprofile" name="external_oprofile" remote="ub" revision="jb-mr1" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="8b82b791ff927e4c5cb59d31889189b6436101ea" />
   <project path="external/ping" name="external_ping" remote="ub" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
