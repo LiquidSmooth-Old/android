@@ -16,7 +16,7 @@
   <remote  name="ub"
            fetch="git://github.com/UnicornButter/" />
 
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
 
