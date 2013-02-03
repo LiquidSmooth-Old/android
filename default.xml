@@ -201,7 +201,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="external_v8" remote="ub" revision="jb-mr1" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="external_webkit" remote="ub" revision="jb-mr1" />
+  <project path="external/webkit" name="external_webkit" remote="ls" revision="jb2" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
@@ -266,7 +266,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="ls" revision="jb2" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
