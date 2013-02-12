@@ -37,11 +37,11 @@
   <project path="dalvik" name="android_dalvik" remote="kj" revision="cm-10.1-linaro" />
   <project path="development" name="android_development" remote="ls" revision="jb2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="cm-10.1" />
+  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb2" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/ville" name="android_device_htc_ville" remote="ls" revision="cm-10.1" />
-  <project path="device/htc/glacier" name="android_device_htc_glacier" remote="ls" revision="cm-10.1" />
+  <project path="device/htc/ville" name="android_device_htc_ville" remote="ls" revision="jb2" />
+  <project path="device/htc/glacier" name="android_device_htc_glacier" remote="ls" revision="jb2" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb2" />
