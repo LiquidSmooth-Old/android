@@ -22,7 +22,7 @@
   <remote  name="ub"
            fetch="git://github.com/UnicornButter/" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
