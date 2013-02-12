@@ -22,9 +22,6 @@
   <remote  name="ub"
            fetch="git://github.com/UnicornButter/" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/" />
-
   <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -222,7 +219,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="ub" revision="jb-mr1" />
-  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
+  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="ls" revision="p-jb-mr1-release" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
