@@ -48,7 +48,6 @@ Enter the number of the build you want to start and press enter
 
 Build the Code:
 
-    make liquid -j7 = Run Squisher/Run Opticharger
-    make otapackage -j7 = No Squisher/No Opticharger
+    time mka liquid
 
 If you have any issues/questions please contact us in channel: #liquids server: irc.freenode.net
