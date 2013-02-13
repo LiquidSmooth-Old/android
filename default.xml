@@ -85,7 +85,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="ub" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="ls" revision="jb2" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="external_busybox" remote="ub" revision="jb-mr1" />
@@ -237,7 +237,7 @@
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="ls" revision="jb2" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="ub" revision="jb-mr1" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="ls" revision="jb2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="jb2" />
@@ -250,7 +250,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="jb2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="ub" revision="jb-mr1" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="ls" revision="jb2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="ls" revision="jb2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
@@ -324,7 +324,7 @@
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" remote="ub" revision="jb-mr1" />
+  <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" remote="ls" revision="jb2" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
