@@ -236,7 +236,7 @@
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="ls" revision="jb2" />
   <project path="frameworks/ex" name="frameworks_ex" remote="ub" revision="jb-mr1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -251,7 +251,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="jb2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="frameworks/rs" name="frameworks_rs" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="ls" revision="jb2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
