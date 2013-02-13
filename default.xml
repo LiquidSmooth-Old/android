@@ -275,7 +275,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="mr1.1-staging" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="mr1.1-staging" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="mr1.1-staging" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="mr1.1-staging" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="mr1.1-staging" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="ls" revision="jb2" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="mr1.1-staging" />
