@@ -24,7 +24,8 @@
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="8" />
 
   <project path="build" name="android_build" remote="ls" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
