@@ -70,6 +70,7 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb2" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
+  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="ls" revision="jb2" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="ls" revision="jb2" />
   <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="ls" revision="jb2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb2" />
