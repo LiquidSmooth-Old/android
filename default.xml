@@ -9,12 +9,12 @@
 
   <remote  name="cmdev"
            fetch="git://github.com/loosethisskin/" />
+	  	
+  <remote  name="kh"	  	
+           fetch="git://github.com/koush/" />
            
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
-
-  <remote  name="kj"
-           fetch="git://github.com/kejar31/" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
