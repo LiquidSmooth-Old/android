@@ -32,7 +32,7 @@
   </project>
   <project path="android" name="android" remote="ls" revision="jb2" />
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="bionic" name="android_bionic" remote="ls" revision="jb2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="cmdev" revision="cm-10.1-linaro" />
