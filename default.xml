@@ -4,9 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex/" />
-
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
@@ -41,7 +38,6 @@
   <project path="dalvik" name="android_dalvik" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="development" name="android_development" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb2" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
@@ -73,7 +69,6 @@
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb2" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb2" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="ls" revision="jb2" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="ls" revision="jb2" />
   <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="ls" revision="jb2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb2" />
@@ -309,7 +304,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="jb2" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ls" revision="jb2" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="kj" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb2" />
@@ -352,8 +347,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
