@@ -193,7 +193,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="android_external_openssh" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/openssl" name="android_external_openssl" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="ls" revision="jb2" />
   <project path="external/ping" name="android_external_ping" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
