@@ -50,6 +50,7 @@
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="ls" revision="jb2" />
   <project path="device/motorola/targa" name="android_device_motorola_targa" remote="ls" revision="jb2" />>
   <project path="device/motorola/umts_spyder" name="android_device_motorola_umts_spyder" remote="ls" revision="jb2" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="ls" revision="jb2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb2" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb2" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb2" />
@@ -312,6 +313,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="kj" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb2" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb2" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-10.1" />
