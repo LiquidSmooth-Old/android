@@ -9,9 +9,6 @@
 
   <remote  name="cmdev"
            fetch="git://github.com/loosethisskin/" />
-
-  <remote  name="ho"
-           fetch="git://github.com/htc-msm8960/" />
 	  	
   <remote  name="kh"	  	
            fetch="git://github.com/koush/" />
@@ -43,7 +40,6 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
-  <project path="device/htc/apq8064-common" name="android_device_htc_apq8064-common" remote="ho" revision="cm-10.1" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="ls" revision="jb2" />
   <project path="device/htc/m7" name="android_device_htc_m7" remote="ls" revision="jb2" />
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="ls" revision="jb2" />
