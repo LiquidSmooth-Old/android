@@ -76,3 +76,5 @@ And Run this CMD
 
     . build_liquid.sh "device"
 
+    example: . build_liquid.sh m7
+
