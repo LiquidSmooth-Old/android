@@ -22,6 +22,9 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
+  <remote  name="fx"
+           fetch="git://github.com/faux123/" />
+
   <default revision="refs/tags/android-4.2.2_r1.1"
            remote="aosp"
            sync-c="true"
