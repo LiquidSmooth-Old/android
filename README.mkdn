@@ -67,7 +67,7 @@ Build the Code:
     time mka liquid
 
 
-Building the System via Buildscript
+Building the System via Buildscript for Nightly 
 ---------------
 
 Put the script in ~/liquid
