@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote  name="gh" fetch="git://github.com/" />
+
+  <project path="kernel/asus/grouper" name="Nexus-grouper" remote="fx" revision="rb_jb_mr1.1" />
+
+  </manifest>
