@@ -60,7 +60,7 @@ echo -e ""
 echo -e "${bldblu}Starting Liquid build for $DEVICE ${txtrst}"
 
 # start compilation
-time mka liquid "liquidsmooth_$DEVICE-userdebug" -j"$THREADS";
+time mka liquid "liquid_$DEVICE-userdebug" -j"$THREADS";
 echo -e ""
 
 # finished? get elapsed time
