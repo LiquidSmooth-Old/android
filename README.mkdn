@@ -66,3 +66,13 @@ Build the Code:
 
     time mka liquid
 
+
+Building the System via Buildscript
+---------------
+
+Put the script in ~/liquid
+
+And Run this CMD
+
+    . build_liquid.sh "device"
+
