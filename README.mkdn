@@ -16,7 +16,7 @@ To create them run:
 Install the Repository
 ----------------------
 
-Enter the following to download make executable the "repo" binary:
+Enter the following to download the "repo" binary:
 
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 
