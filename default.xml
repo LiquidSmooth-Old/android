@@ -9,21 +9,18 @@
 
   <remote  name="cmdev"
            fetch="git://github.com/loosethisskin/" />
-	  	
+
   <remote  name="kh"	  	
            fetch="git://github.com/koush/" />
            
   <remote  name="kj"	  	
            fetch="git://github.com/kejar31/" />
-           
+
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
-
-  <remote  name="fx"
-           fetch="git://github.com/faux123/" />
 
   <default revision="refs/tags/android-4.2.2_r1.1"
            remote="aosp"
@@ -323,7 +320,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="kj" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb2" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb2" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-10.1" />
