@@ -15,6 +15,9 @@
            
   <remote  name="kj"	  	
            fetch="git://github.com/kejar31/" />
+           
+  <remote  name="fx"
+           fetch="git://github.com/faux123/" />
 
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
