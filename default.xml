@@ -10,6 +10,9 @@
   <remote  name="cmdev"
            fetch="git://github.com/loosethisskin/" />
 
+  <remote  name="koz"
+           fetch="git://github.com/kozmikkick/" />
+
   <remote  name="kh"	  	
            fetch="git://github.com/koush/" />
            

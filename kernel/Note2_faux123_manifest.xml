@@ -3,6 +3,6 @@
 
   <remote  name="gh" fetch="git://github.com/" />
 
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="koz" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="Galaxy_Note_2" remote="fx" revision="master" />
 
   </manifest>
