@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="kernel/samsung/smdk4210" name="Dorimanx-SG2-I9100-Kernel" remote="dori" revision="master-jelly-cm-aokp" />
-
-  </manifest>

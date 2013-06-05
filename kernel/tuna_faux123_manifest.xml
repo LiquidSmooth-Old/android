@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="kernel/samsung/tuna" name="tuna" remote="fx" revision="jb_mr1.1_exp" />
-
-  </manifest>

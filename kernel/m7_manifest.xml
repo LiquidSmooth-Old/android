@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="koz" revision="cm-10.1" />
-
-  </manifest>
