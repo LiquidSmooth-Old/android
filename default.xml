@@ -30,7 +30,7 @@
   <project path="build" name="android_build" remote="ls" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="ls" revision="jb2" />
+  <project path="android" name="android" remote="ls" revision="jb2-armv6" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="ls" revision="jb2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
