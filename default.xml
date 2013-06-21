@@ -7,7 +7,6 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
-
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
