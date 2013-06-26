@@ -44,7 +44,6 @@
   <project path="dalvik" name="android_dalvik" remote="ts" revision="cm-10.1-linaro" />
   <project path="development" name="android_development" remote="ts" revision="cm-10.1-linaro" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
-  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="jb2" />
@@ -60,12 +59,9 @@
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb2" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb2" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb2" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="ls" revision="jb2" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="jb2" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="ls" revision="jb2" />
-  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="ls" revision="jb2" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb2" />
-  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="ls" revision="jb2" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="jb2" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ls" revision="jb2" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ls" revision="jb2" />
@@ -77,7 +73,6 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb2" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb2" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb2" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb2" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb2" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb2" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb2" />
