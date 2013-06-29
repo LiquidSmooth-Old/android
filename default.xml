@@ -173,7 +173,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="android_external_srec" remote="ls" revision="jb2-armv6" />
+  <project path="external/srec" name="android_external_srec" remote="cm" revision="cm-10.1" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="android_external_stlport" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/strace" name="platform/external/strace" />
