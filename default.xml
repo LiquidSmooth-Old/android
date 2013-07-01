@@ -32,7 +32,7 @@
   <project path="bionic" name="android_bionic" remote="ls" revision="jb2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="dalvik" name="android_dalvik" remote="ts" revision="cm-10.1-linaro" />
+  <project path="dalvik" name="android_dalvik" remote="ls" revision="jb2" />
   <project path="development" name="android_development" remote="ts" revision="cm-10.1-linaro" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
