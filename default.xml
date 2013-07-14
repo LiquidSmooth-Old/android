@@ -360,7 +360,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
