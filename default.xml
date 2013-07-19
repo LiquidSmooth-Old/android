@@ -153,6 +153,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.1" />
+  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.1" />
   <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-10.1" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-10.1" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
