@@ -63,6 +63,7 @@
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="jb2" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="ls" revision="jb2" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb2" />
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="ls" revision="jb2" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="jb2" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ls" revision="jb2" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ls" revision="jb2" />
