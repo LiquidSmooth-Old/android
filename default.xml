@@ -39,6 +39,8 @@
   <project path="development" name="android_development" remote="ts" revision="cm-10.1-linaro" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/vigor" name="android_device_htc_vigor" remote="ls" revision="jb2" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ls" revision="jb2" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb2" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="jb2" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="ls" revision="jb2" />
@@ -279,10 +281,12 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="jb2" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ls" revision="jb2" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="jb2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="jb2" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="ls" revision="jb2" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="ls" revision="jb2" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
@@ -385,6 +389,7 @@
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.1" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.1" />
+  <project path="vendor/htc" name="android_vendor_htc_vigor" remote="ls" revision="jb2" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb2" />
