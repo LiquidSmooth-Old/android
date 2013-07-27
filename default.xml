@@ -102,7 +102,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" />
+  <project path="external/checkpolicy" name="android_external_checkpolicy" remote="cm" revision="cm-10.1" />
   <project path="external/chromium" name="android_external_chromium" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
@@ -173,8 +173,8 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-10.1" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="platform/external/libselinux" />
-  <project path="external/libsepol" name="platform/external/libsepol" />
+  <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-10.1" />
+  <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-10.1" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -215,7 +215,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-10.1" />
   <project path="external/skia" name="android_external_skia" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
