@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b jb2
+    repo init -u git://github.com/LiquidSmooth/android.git -b jb3
 
     repo sync
 
@@ -47,7 +47,7 @@ To create kernel manifest:
 
     mkdir local_manifests
 
-    example: copy sgs3_manifest.xml .repo/local_manifests
+    example: copy sgs4_manifest.xml .repo/local_manifests
 
     repo sync
 
@@ -65,16 +65,4 @@ Enter the number of the build you want to start and press enter
 Build the Code:
 
     time mka liquid
-
-
-Building the System via Buildscript for Nightly 
----------------
-
-Put the script in ~/liquid
-
-And Run this CMD
-
-    . build_liquid.sh "device"
-
-    example: . build_liquid.sh m7
 
