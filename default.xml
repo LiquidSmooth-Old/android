@@ -38,6 +38,8 @@
   <project path="dalvik" name="android_dalvik" remote="ls" revision="jb3" />
   <project path="development" name="android_development" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb3" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="jb3" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ls" revision="jb3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.2" />
