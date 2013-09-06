@@ -205,7 +205,7 @@
   <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.3" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webkit" name="android_external_webkit" remote="ls" revision="jb3" />
-  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webp" name="platform/external/webp" remote="ls" revision="jb3" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
