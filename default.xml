@@ -41,7 +41,7 @@
   <project path="device/htc/vigor" name="android_device_htc_vigor" remote="ls" revision="jb3" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ls" revision="jb3" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb3" />
-   <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" />
+  <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb3" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb3" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="jb3" />
