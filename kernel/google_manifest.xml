@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="kernel/lge/mako" name="kernel-lge-mako" remote="cm" revision="cm-10.2" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-10.2" />
 </manifest>
