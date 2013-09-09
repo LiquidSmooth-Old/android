@@ -13,9 +13,6 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
-  <remote  name="rz" 
-           fetch="git://github.com/razrqcom-dev-team/" />
-
   <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
 
@@ -417,12 +414,6 @@
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb3" />
   <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb3" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
-  <project path="vendor/motorola/mb886" name="android_vendor_motorola_mb886" remote="rz" revision="cm-10.2" />
-  <project path="vendor/motorola/msm8960-common" name="android_vendor_motorola_msm8960-common" remote="rz" revision="cm-10.2" />
-  <project path="vendor/motorola/xt897" name="android_vendor_motorola_xt897" remote="rz" revision="cm-10.2" />
-  <project path="vendor/motorola/xt907" name="android_vendor_motorola_xt907" remote="rz" revision="cm-10.2" />
-  <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="rz" revision="cm-10.2" />
-  <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="rz" revision="cm-10.2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb3" />
