@@ -6,5 +6,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.2" />
   <project path="kernel/motorola/omap4-kexec-common" name="android_kernel_motorola_omap4-kexec-common" remote="cm" revision="cm-10.1" />
-  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="rz" revision="cm-10.2" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   </manifest>
