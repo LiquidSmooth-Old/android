@@ -49,6 +49,7 @@
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb3" />
   <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="ls" revision="jb3" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="ls" revision="jb3" />
+  <project path="device/motorola/xt897c" name="android_device_motorola_xt897c" remote="ls" revision="jb3" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ls" revision="jb3" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ls" revision="jb3" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ls" revision="jb3" />
