@@ -38,7 +38,7 @@
   <project path="dalvik" name="android_dalvik" remote="ls" revision="jb3" />
   <project path="development" name="android_development" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
-  <project path="device/asus/grouper" name="jsnweitzel/android_device_asus_grouper" remote="gh" revision="jb3" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="gh" revision="jb3" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ls" revision="jb3" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="cm" revision="cm-10.2" />
