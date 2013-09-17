@@ -420,7 +420,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.2" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="ls" revision="cm-10.2" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.2" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.2" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.2" />
