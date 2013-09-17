@@ -22,7 +22,7 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-4.3_r2.2"
+  <default revision="refs/tags/android-4.3_r3"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
