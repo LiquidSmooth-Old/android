@@ -55,6 +55,7 @@
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ls" revision="jb3" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ls" revision="jb3" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ls" revision="jb3" />
+  <project path="device_motorola_qcom-common" name="android_device_motorola_qcom-common" remote="cm" revision="cm-10.2" />
   <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb3" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb3" />
