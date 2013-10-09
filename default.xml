@@ -304,6 +304,7 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.2" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.2" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="ls" revision="jb3" />
