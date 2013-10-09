@@ -124,6 +124,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/clang" name="android_external_clang" remote="ls" revision="jb3" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ls" revision="jb3" />
@@ -425,6 +426,7 @@
   <project path="system/extras" name="android_system_extras" remote="ls" revision="jb3" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
