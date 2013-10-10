@@ -427,7 +427,7 @@
   <project path="system/extras" name="android_system_extras" remote="ls" revision="jb3" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
-  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-10.2" />
+  <project path="system/qcom" name="android_system_qcom" remote="ls" revision="jb3" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
