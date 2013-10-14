@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
 
-  <remote  name="tl" fetch="git://github.com/TeamLGOG" />
+  <remote  name="gh" fetch="git://github.com/" />
 
-  <project path="kernel/lge/g2" name="android_kernel_lge_f320k" remote="tl" revision="cm-10.2" />
+  <project path="kernel/lge/g2" name="android_kernel_lge_f320k" remote="ls" revision="master" />
 
   </manifest>
