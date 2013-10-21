@@ -448,7 +448,7 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.2" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.2" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb3" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb3" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.2" />
