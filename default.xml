@@ -292,6 +292,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="jb3" />
+  <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="jb3" />
   <project path="frameworks/support" name="platform/frameworks/support" />
