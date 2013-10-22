@@ -12,9 +12,6 @@
 
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
-
-  <remote  name="sm"
-           fetch="git://github.com/SaberMod/" />
            
   <remote  name="gh"
            fetch="git://github.com/" />
