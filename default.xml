@@ -52,6 +52,8 @@
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ls" revision="jb3" />
   <project path="device/htc/vigor" name="android_device_htc_vigor" remote="ls" revision="jb3" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb3" />
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ls" revision="jb3" />
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="jb3" />
   <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="ls" revision="jb3" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
@@ -315,11 +317,13 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="jb3" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="jb3" />
   <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.2" />
+  <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" remote="cm" revision="cm-10.2" />  
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="jb3" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="ls" revision="jb3" />
   <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" remote="gh" revision="cm-10.2" />
+  <project path="hardware/qcom/media-v412" name="android_hardware_qcom_media-v412" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />

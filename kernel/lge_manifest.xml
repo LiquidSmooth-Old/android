@@ -3,6 +3,6 @@
 
   <remote  name="gh" fetch="git://github.com/" />
 
-  <project path="kernel/lge/g2" name="android_kernel_lge_f320k" remote="ls" revision="master" />
+  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="cm" revision="cm-10.2" />
 
   </manifest>
