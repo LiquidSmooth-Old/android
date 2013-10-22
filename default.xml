@@ -52,6 +52,7 @@
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ls" revision="jb3" />
   <project path="device/htc/vigor" name="android_device_htc_vigor" remote="ls" revision="jb3" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="jb3" />
+  <project path="device/lge/d802" name="android_device_lge_d802" remote="ls" revision="jb3" />
   <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ls" revision="jb3" />
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="jb3" />
