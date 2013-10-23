@@ -15,9 +15,6 @@
 
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
-           
-  <remote  name="gh"
-           fetch="git://github.com/" />
 
   <remote  name="sr"
            fetch="git://github.com/SlimRoms/" />
@@ -42,7 +39,6 @@
   <project path="development" name="android_development" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb3" />
-  <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="gh" revision="cm-10.2" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="sr" revision="jb4.3" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ls" revision="jb3" />
@@ -315,13 +311,11 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="jb3" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="jb3" />
-  <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.2" />
   <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" remote="cm" revision="cm-10.2" />  
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="jb3" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="ls" revision="jb3" />
-  <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" remote="gh" revision="cm-10.2" />
   <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
