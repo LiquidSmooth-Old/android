@@ -39,6 +39,7 @@
   <project path="development" name="android_development" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb3" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="jb3" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="sr" revision="jb4.3" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ls" revision="jb3" />
@@ -76,6 +77,7 @@
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="jb3" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb3" />
   <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="ls" revision="jb3" />
+  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="ls" revision="jb3" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="jb3" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ls" revision="jb3" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ls" revision="jb3" />
