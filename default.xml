@@ -124,7 +124,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
-  <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.3.1" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
@@ -220,7 +220,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-10.2" />
   <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-10.2" />
@@ -281,7 +281,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.3.1" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
