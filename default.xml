@@ -281,7 +281,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.3.1" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" remote="ln" revision="linaro_android_4.3.1" />
