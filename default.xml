@@ -36,10 +36,10 @@
   <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
+  <project path="device/common" name="device/common" />
   <project path="device/asus/deb" name="android_device_asus_deb" remote="ls" revision="kitkat" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="kitkat" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="kitkat" />
@@ -69,7 +69,7 @@
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ls" revision="kitkat" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ls" revision="kitkat" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ls" revision="kitkat" />
-  <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" />
+  <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="kitkat" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="kitkat" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="kitkat" />
@@ -107,7 +107,7 @@
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="kitkat" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-10.2" />
+  <project path="external/android-mock" name="android/external/android-mock" />
   <project path="external/angle" name="android_external_angle" remote="ls" revision="kitkat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -121,7 +121,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="ls" revision="kitkat" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
+  <project path="external/busybox" name="android_external_busybox" remote="sr" revision="kk4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -176,7 +176,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4" />
-  <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
+  <project path="external/fsck_msdos" name="platform/external/fsck/msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -195,7 +195,7 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/iputils" name="platform/external/iputils" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.2" />
+  <project path="external/javasqlite" name="android/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
@@ -222,8 +222,8 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-10.2" />
-  <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-10.2" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-10.2" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
@@ -272,7 +272,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-10.2" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="sr" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="android_external_skia" remote="ls" revision="kitkat" />
@@ -299,12 +299,12 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="android_external_webp" remote="ls" revision="kitkat" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="sr" revision="kk4.4" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="sr" revision="kk4.4" />
+  <project path="external/zlib" name="android_external_zlib" remote="sr" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat" />
@@ -319,16 +319,16 @@
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="jb4.3" />
-  <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="ls" revision="kitkat" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="sr" revision="kk4.4" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -471,15 +471,15 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.2" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
   <project path="system/core" name="android_system_core" remote="ls" revision="kitkat" />
   <project path="system/extras" name="android_system_extras" remote="ls" revision="kitkat" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
+  <project path="system/netd" name="android_system_netd" remote="sr" revision="kk4.4" />
   <project path="system/qcom" name="android_system_qcom" remote="ls" revision="kitkat" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
+  <project path="system/vold" name="android_system_vold" remote="sr" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
