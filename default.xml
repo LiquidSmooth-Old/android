@@ -44,7 +44,7 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="kitkat" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="kitkat" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="sr" revision="jb4.3" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="sr" revision="kk4.4" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ls" revision="kitkat" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ls" revision="kitkat" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ls" revision="kitkat" />
@@ -215,8 +215,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sr" revision="jb4.3" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="sr" revision="jb4.3" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sr" revision="kk4.4" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="sr" revision="kk4.4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -319,7 +319,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="jb4.3" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
@@ -379,8 +379,8 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="jb4.3" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="jb4.3" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
