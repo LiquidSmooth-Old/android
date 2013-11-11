@@ -31,7 +31,7 @@
   <project path="art" name="android_art" remote="cm" revision="cm-11.0" />
   <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="development" name="android_development" remote="cm" revision="cm-11.0" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
