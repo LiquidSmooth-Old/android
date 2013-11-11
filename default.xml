@@ -13,6 +13,9 @@
   <remote  name="ls"
            fetch="https://github.com/LiquidSmooth/" />
 
+  <remote  name="sr"
+           fetch="git://github.com/SlimRoms/" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
