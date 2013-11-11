@@ -149,7 +149,6 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="android_external_clang" remote="ls" revision="kitkat" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-11.0" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ls" revision="kitkat" />
@@ -167,6 +166,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4" />
