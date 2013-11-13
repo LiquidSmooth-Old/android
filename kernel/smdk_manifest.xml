@@ -3,6 +3,6 @@
 
   <remote  name="gh" fetch="git://github.com/" />
 
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-11.0" />
 
   </manifest>
