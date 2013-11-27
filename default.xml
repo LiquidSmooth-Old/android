@@ -88,7 +88,7 @@
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="ls" revision="kitkat" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="kitkat" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="kitkat" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="kitkat" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="kitkat" />
   <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="ls" revision="kitkat" />
   <project path="device/samsung/n8013" name="android_device_samsung_n8013" remote="ls" revision="kitkat" />
