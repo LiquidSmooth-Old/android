@@ -119,7 +119,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" />
+  <project path="external/checkpolicy" name="android_external_checkpolicy" remote="cm" revision="cm-11.0" />
   <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
