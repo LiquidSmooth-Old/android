@@ -56,7 +56,7 @@
   <project path="device/lge/e975" name="android_device_lge_e975" remote="ls" revision="kitkat" />
   <project path="device/lge/e980" name="android_device_lge_e980" remote="ls" revision="kitkat" />
   <project path="device/lge/ls970" name="android_device_lge_ls970" remote="ls" revision="jb3" />
-  <project path="device/lge/ls970-common" name="android_device_lge_ls970-common" remote="ls" revision="kitkat" />
+  <project path="device/lge/ls970-common" name="android_device_lge_ls970-common" remote="cm" revision="cm-11.0" />
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="ls" revision="kitkat" />
   <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ls" revision="kitkat" />
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="cm" revision="cm-10.2" />
