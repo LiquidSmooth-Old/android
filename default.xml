@@ -45,8 +45,6 @@
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ls" revision="kitkat" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="ls" revision="kitkat" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ls" revision="kitkat" />
-  <project path="device/lge/d800" name="android_device_lge_d800" remote="ls" revision="kitkat" />
-  <project path="device/lge/d802" name="android_device_lge_d802" remote="ls" revision="kitkat" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="ls" revision="kitkat" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="kitkat" />
   <project path="device/lge/d800" name="android_device_lge_d800" remote="ls" revision="kitkat" />
