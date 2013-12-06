@@ -31,7 +31,7 @@
   </project>
   <project path="android" name="android" remote="ls" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="art" name="android_art" remote="cm" revision="cm-11.0" />
+  <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
