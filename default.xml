@@ -323,25 +323,25 @@
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="kitkat" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
+  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4" />
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
+  <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
