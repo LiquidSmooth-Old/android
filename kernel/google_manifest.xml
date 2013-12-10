@@ -3,5 +3,5 @@
 
   <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="sr" revision="kk4.4" />
-
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="sr" revision="kk4.4" />
 </manifest>
