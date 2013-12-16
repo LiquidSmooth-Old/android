@@ -48,6 +48,7 @@
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="ls" revision="kitkat" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="kitkat" />
   <project path="device/lge/d800" name="android_device_lge_d800" remote="ls" revision="kitkat" />
+  <project path="device/lge/d801" name="android_device_lge_d801" remote="ls" revision="kitkat" />
   <project path="device/lge/d802" name="android_device_lge_d802" remote="ls" revision="kitkat" />
   <project path="device/lge/e970" name="android_device_lge_e970" remote="ls" revision="kitkat" />
   <project path="device/lge/e973" name="android_device_lge_e973" remote="ls" revision="kitkat" />
