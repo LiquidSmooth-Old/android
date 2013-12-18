@@ -349,7 +349,7 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-11.0"
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
