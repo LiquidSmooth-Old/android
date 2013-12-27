@@ -82,6 +82,10 @@
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="kitkat" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="kitkat" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="kitkat" />
+  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" remote="ls" revision="kitkat" />
+  <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" remote="ls" revision="kitkat" />
+  <project path="device/samsung/hltexx" name="android_device_samsung_hltexx" remote="ls" revision="kitkat" />
+  <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="kitkat" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="kitkat" />
   <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="ls" revision="kitkat" />
