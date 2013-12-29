@@ -491,7 +491,6 @@
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-11.0" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-11.0" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-11.0" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="sr" revision="kk4.4" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
