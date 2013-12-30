@@ -319,7 +319,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.2" />
