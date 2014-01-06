@@ -39,7 +39,7 @@
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="kitkat" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="kitkat" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="cm" revision="cm-11.0" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ls" revision="cm-11.0" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ls" revision="kitkat" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ls" revision="kitkat" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ls" revision="kitkat" />
