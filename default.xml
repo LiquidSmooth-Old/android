@@ -40,10 +40,8 @@
   <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="kitkat" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ls" revision="cm-11.0" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ls" revision="kitkat" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ls" revision="kitkat" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ls" revision="kitkat" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="ls" revision="kitkat" />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="ls" revision="kitkat" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ls" revision="kitkat" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="ls" revision="kitkat" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="kitkat" />
