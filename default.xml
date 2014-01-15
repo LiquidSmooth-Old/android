@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
