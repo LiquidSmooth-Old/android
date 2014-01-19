@@ -104,7 +104,6 @@
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="kitkat" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="kitkat" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="kitkat" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/r950" name="android_device_samsung_r950" remote="ls" revision="kitkat" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
