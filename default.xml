@@ -61,7 +61,6 @@
   <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="ls" revision="kitkat" />
   <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ls" revision="kitkat" />
   <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="ls" revision="kitkat" />
-  <project path="device/lge/v500" name="android_device_lge_v500" remote="ls" revision="kitkat" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="kitkat" />
   <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="ls" revision="kitkat" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
@@ -106,8 +105,6 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="kitkat" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="kitkat" />
-  <project path="device/samsung/n80xx-common" name="android_device_samsung_n80xx-common" remote="ls" revision="kitkat" />
-  <project path="device/samsung/n8013" name="android_device_samsung_n8013" remote="ls" revision="kitkat" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/r950" name="android_device_samsung_r950" remote="ls" revision="kitkat" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
