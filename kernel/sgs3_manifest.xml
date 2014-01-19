@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
-
-  </manifest>

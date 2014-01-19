@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" />
-  <project path="kernel/lge/v500" name="android_kernel_lge_v500" remote="cm" revision="cm-11.0" />
-
-  </manifest>

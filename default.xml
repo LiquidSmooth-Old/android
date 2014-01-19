@@ -18,7 +18,7 @@
 
   <remote  name="sr"
            fetch="git://github.com/SlimRoms/" />
-
+	
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
@@ -37,82 +37,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
-  <project path="device/asus/deb" name="android_device_asus_deb" remote="ls" revision="kitkat" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="kitkat" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="ls" revision="kitkat" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ls" revision="cm-11.0" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ls" revision="kitkat" />
-  <project path="device/htc/m7" name="android_device_htc_m7" remote="ls" revision="kitkat" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ls" revision="kitkat" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="ls" revision="kitkat" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="ls" revision="kitkat" />
-  <project path="device/lge/d800" name="android_device_lge_d800" remote="ls" revision="kitkat" />
-  <project path="device/lge/d801" name="android_device_lge_d801" remote="ls" revision="kitkat" />
-  <project path="device/lge/d802" name="android_device_lge_d802" remote="ls" revision="kitkat" />
-  <project path="device/lge/e970" name="android_device_lge_e970" remote="ls" revision="kitkat" />
-  <project path="device/lge/e973" name="android_device_lge_e973" remote="ls" revision="kitkat" />
-  <project path="device/lge/e975" name="android_device_lge_e975" remote="ls" revision="kitkat" />
-  <project path="device/lge/e980" name="android_device_lge_e980" remote="ls" revision="kitkat" />
-  <project path="device/lge/ls970" name="android_device_lge_ls970" remote="ls" revision="jb3" />
-  <project path="device/lge/ls970-common" name="android_device_lge_ls970-common" remote="cm" revision="cm-11.0" />
-  <project path="device/lge/ls980" name="android_device_lge_ls980" remote="ls" revision="kitkat" />
-  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" remote="ls" revision="kitkat" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ls" revision="kitkat" />
-  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="ls" revision="kitkat" />
-  <project path="device/motorola/maserati" name="android_device_motorola_maserati" remote="ls" revision="kitkat" />
-  <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="ls" revision="kitkat" />
-  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/motorola/omap4-common" name="android_device_motorola_omap4-common" remote="ls" revision="kitkat" />
-  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="cm" revision="cm-11.0" />
-  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="ls" revision="kitkat" />
-  <project path="device/motorola/umts_spyder" name="android_device_motorola_umts_spyder" remote="ls" revision="kitkat" />
-  <project path="device/motorola/solana" name="android_device_motorola_solana" remote="ls" revision="kitkat" />
-  <project path="device/motorola/targa" name="android_device_motorola_targa" remote="ls" revision="kitkat" />
-  <project path="device/motorola/xt897" name="android_device_motorola_xt897" remote="ls" revision="kitkat" />
-  <project path="device/motorola/xt897c" name="android_device_motorola_xt897c" remote="ls" revision="kitkat" />
-  <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ls" revision="kitkat" />
-  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ls" revision="kitkat" />
-  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ls" revision="kitkat" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="kitkat" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="kitkat" />
-  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" remote="ls" revision="kitkat" />
-  <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" remote="ls" revision="kitkat" />
-  <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" remote="ls" revision="kitkat" />
-  <project path="device/samsung/hltexx" name="android_device_samsung_hltexx" remote="ls" revision="kitkat" />
-  <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" remote="ls" revision="cm-11.0" />
-  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="ls" revision="kitkat" />
-  <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="kitkat" />
-  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="ls" revision="kitkat" />
-  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ls" revision="kitkat" />
-  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="ls" revision="kitkat" />
-  <project path="device/samsung/l900" name="android_device_samsung_l900" remote="ls" revision="kitkat" />
-  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="kitkat" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="kitkat" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/r950" name="android_device_samsung_r950" remote="ls" revision="kitkat" />
-  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="cm-11.0" />
-  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="ls" revision="kitkat" />
-  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="ls" revision="kitkat" />
-  <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="ls" revision="kitkat" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="kitkat" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="kitkat" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-11.0" />
@@ -368,7 +292,6 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="ls" revision="kitkat" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="ls" revision="kitkat" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
@@ -404,7 +327,6 @@
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ls" revision="kitkat" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="kitkat" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -489,18 +411,13 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-11.0" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-11.0" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-11.0" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-11.0" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="kitkat" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="ls" revision="kitkat" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-11.0" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-11.0" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />

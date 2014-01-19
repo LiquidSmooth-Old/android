@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <project path="kernel/google/msm" name="android_kernel_google_msm" remote="cm" revision="cm-11.0" />
-  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="ls" revision="kitkat" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" />
-</manifest>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-  <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" />
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="gh" revision="cm-11.0" />
-
-  </manifest>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <remote  name="gh" fetch="git://github.com/" />
-
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
-  <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="cm" revision="cm-11.0" />
-  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
-</manifest>
