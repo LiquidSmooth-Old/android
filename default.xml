@@ -36,6 +36,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
