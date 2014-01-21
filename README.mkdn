@@ -35,21 +35,7 @@ Before you continue --> run this in the terminal
     repo init -u git://github.com/LiquidSmooth/android.git -b kitkat
 
     repo sync
-
-Sync Kernel Source
-----------------------
-
-In this repo inside kernel folder are pre made manifests grouped together
-
-To create kernel manifest:
-
-    cd .repo
-
-    mkdir local_manifests
-
-    example: copy sgs4_manifest.xml .repo/local_manifests
-
-    repo sync
+    
 
 Building the System
 ---------------
