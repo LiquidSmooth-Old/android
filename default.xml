@@ -253,6 +253,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
