@@ -323,6 +323,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="ls" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/LiquidOTA" name="android_packages_apps_LiquidOTA" remote="ls" revision="kitkat" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sr" revision="kk4.4" />
