@@ -422,7 +422,7 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" />
   <project path="system/qcom" name="android_system_qcom" remote="ls" revision="kitkat" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="stable/cm-11.0" />
+  <project path="system/vold" name="android_system_vold" remote="ls" revision="kitkat" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
