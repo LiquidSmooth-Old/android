@@ -232,7 +232,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-11.0" />
   <project path="external/tinycompress" name="platform/external/tinycompress" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
