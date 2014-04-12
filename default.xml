@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <remote  name="aosp"
@@ -433,8 +433,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="kitkat" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="ValidusAOSP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-11.0" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="ValidusAOSP/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="ValidusAOSP/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="cm-11.0" />	
 
 </manifest>
