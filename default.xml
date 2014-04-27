@@ -398,13 +398,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ls" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.9" name="Cl3Kener/linaro-arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="Cl3Kener/sm-arm-eabi-4.7" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="Cl3Kener/sm-arm-eabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="Cl3Kener/sm-arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="Cl3Kener/sm-arm-eabi-4.10" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-androideabi-4.9" name="Cl3Kener/sm-arm-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="sabermod_rom_toolchain" remote="ls" revision="4.9.0" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
