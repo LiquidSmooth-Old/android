@@ -110,6 +110,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
@@ -226,6 +227,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-11.0" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
   <project path="external/stlport" name="platform/external/stlport" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
