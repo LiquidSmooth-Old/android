@@ -98,6 +98,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ls" revision="kitkat" />
   <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-11.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
