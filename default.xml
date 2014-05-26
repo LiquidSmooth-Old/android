@@ -30,20 +30,20 @@
   <project path="build" name="android_build" remote="ls" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="ls" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" />
+  <project path="android" name="android" remote="ls" revision="kitkat" />
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="bionic" name="android_bionic" remote="ls" revision="kitkat" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-11.0" />
-  <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/android-visualizer" name="android-visualizer" remote="cm" revision="cm-11.0" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -65,7 +65,6 @@
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
@@ -82,6 +81,7 @@
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
@@ -92,8 +92,8 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ls" revision="kitkat" />
   <project path="external/doclava" name="platform/external/doclava" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
+  <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ls" revision="kitkat" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-11.0" />
@@ -118,8 +118,8 @@
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-11.0" />
   <project path="external/gtest" name="platform/external/gtest" />
@@ -165,8 +165,8 @@
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" revision="cm-11.0" />
-  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
+  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-11.0" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
@@ -271,8 +271,8 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.2" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -297,8 +297,8 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="ls" revision="kitkat" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
@@ -311,8 +311,8 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="ls" revision="kitkat" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="ls" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -329,17 +329,17 @@
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LiquidFileManager" name="android_packages_apps_LiquidFileManager" remote="ls" revision="kitkat" />
-  <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="kitkat" />
   <project path="packages/apps/LiquidStartupService" name="android_packages_apps_LiquidStartupService" remote="ls" revision="kitkat" />
+  <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="kitkat" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="kitkat" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="Liquid-CPA/android_packages_apps_Mms" remote="gh" revision="kitkat"/>
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="ls" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="ls" revision="android-4.4" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ls" revision="kitkat" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="kitkat2" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="sr" revision="kk4.4" />
@@ -366,8 +366,8 @@
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="ls" revision="kitkat" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-11.0" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
@@ -377,16 +377,16 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ls" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ls" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LK" name="UBERUTILS/LINARO-KERNEL" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="UBERUTILS/LINARO" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LK" name="UBERUTILS/LINARO-KERNEL" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
