@@ -13,6 +13,9 @@
   <remote  name="ln"
            fetch="git://android.git.linaro.org/" />
 
+  <remote  name="lsd"
+           fetch="https://github.com/LiquidSmooth/" />
+
   <remote  name="ls"
            fetch="https://github.com/LiquidSmooth/" />
 
