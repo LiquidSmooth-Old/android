@@ -44,7 +44,7 @@ Build LiquidSmooth with the following command
 
     ./build-liquid.sh {options} {device}
 
-Us the following as options...
+Use the following as options...
 
     Options:
     -c# Cleanin options before build:
@@ -52,15 +52,15 @@ Us the following as options...
             c2 - make dirty
             c3 - make magic
             c4 - make kernelclean
-    -d  Use dex optimizations"
-    -i  Static Initlogo"
-    -j# Set jobs"
-    -s  Sync before build"
-    -p  Build using pipe"
-    -o# Select GCC O Level"
-            Valid O Levels are"
-            1 (Os) or 3 (O3)"
-    -v  Verbose build output"
+    -d  Use dex optimizations
+    -i  Static Initlogo
+    -j# Set jobs
+    -s  Sync before build
+    -p  Build using pipe
+    -o# Select GCC O Level
+            Valid O Levels are
+            1 (Os) or 3 (O3)
+    -v  Verbose build output
     
 Example:
 
