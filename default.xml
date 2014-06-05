@@ -65,7 +65,7 @@
   <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.2" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="ls" revision="kitkat" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
