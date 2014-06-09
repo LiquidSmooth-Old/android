@@ -24,6 +24,9 @@
 	
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
+           
+  <remote  name="pf"
+           fetch="git://github.com/pixelfreak2005/" />            
 
   <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
@@ -257,7 +260,6 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.3" />
@@ -276,7 +278,6 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.3" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ls" revision="kitkat" />
@@ -346,7 +347,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="sr" revision="kk4.4" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ls" revision="kitkat" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="kitkat2" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -414,11 +414,48 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="kitkat" >
-    <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
-  </project>
   <project path="vendor/tmobile/apps/ThemeChooser" name="ValidusAOSP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="ValidusAOSP/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="cm-11.0" />
   <project path="vendor/tmobile/providers/ThemeManager" name="ValidusAOSP/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="cm-11.0" />	
+
+
+
+  <!-- Device specific projects -->
+
+  <!-- Use forked iproute2 project with changes for htc Leo HD2 -->
+  <project path="external/iproute2" name="android_external_iproute2" remote="pf" revision="master" />
+
+  <!-- Use forked frameworks project with changes for htc Leo HD2 -->
+  <project path="frameworks/base" name="liquid_android_frameworks_base" remote="pf" revision="kitkat2" />
+
+  <!-- Use forked telephony project with changes for htc Leo HD2 -->
+  <project path="frameworks/opt/telephony" name="liquid_android_frameworks_opt_telephony" remote="pf" revision="LIQUID_kk" />
+
+  <!-- Use forked settings project with changes for htc Leo HD2 -->
+  <project path="packages/apps/Settings" name="liqiud_android_packages_apps_Settings" remote="pf" revision="kitkat2" />
+
+  <!-- Use forked vendor project with changes for htc Leo HD2 -->
+  <project path="vendor/liquid" name="liquid_android_vendor_liquid" remote="pf" revision="kitkat" />
+
+  <!-- Tootlchin for 2.6.35 ernel -->
+  <project path="prebuilts/gcc/linux-x86/arm" name="android_prebuilts_gcc_linux-x86_arm"  remote="pf" revision="master" />
+
+  <!-- Use devicetree forked from pixeldroid/TeamHD2 4ever projects -->
+  <project path="device/htc/leo" name="liquid_android_device_htc_leo" remote="pf" revision="LIQUID_kk" />
+
+  <!-- Use kernel forked from pixeldroid/TeamHD2 4ever projects -->
+  <project path="kernel/htc/leo" name="android_kernel_htc_leo" remote="pf" revision="2.6.35_bcmhd" />
+  
+  <!--  Use legacy projects with changes for htc Leo HD2-->
+  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="pf" revision="master" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="pf" revision="master" />
+  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="pf" revision="master" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="pf" revision="master" />
+
+  <!-- Use Torch mod (won't shutdown when screen turns off) -->
+  <project path="packages/apps/Torch2" name="android_packages_apps_Torch2" remote="pf" revision="master" />
+  
+  <!--  Use manifest project with changes for htc Leo HD2-->
+  <project path="liquid_platform_manifest" name="liquid_platform_manifest" remote="pf" revision="kitkat" />
 
 </manifest>
