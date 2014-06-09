@@ -136,7 +136,6 @@
   <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-11.0" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.3" />
