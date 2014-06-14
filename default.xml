@@ -429,7 +429,7 @@
   <project path="frameworks/base" name="liquid_android_frameworks_base" remote="pf" revision="kitkat2" />
 
   <!-- Use forked telephony project with changes for htc Leo HD2 -->
-  <project path="frameworks/opt/telephony" name="liquid_android_frameworks_opt_telephony" remote="pf" revision="LIQUID_kk" />
+  <project path="frameworks/opt/telephony" name="liquid_android_frameworks_opt_telephony" remote="pf" revision="kitkat" />
 
   <!-- Use forked settings project with changes for htc Leo HD2 -->
   <project path="packages/apps/Settings" name="liqiud_android_packages_apps_Settings" remote="pf" revision="kitkat2" />
