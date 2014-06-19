@@ -352,6 +352,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
