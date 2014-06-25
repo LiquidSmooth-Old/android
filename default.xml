@@ -307,6 +307,7 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="ls" revision="kitkat" />
   <project path="hardware/ril" name="android_hardware_ril" remote="ls" revision="kitkat" />
   <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" />
