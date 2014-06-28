@@ -339,7 +339,7 @@
   <project path="packages/apps/LiquidLauncher" name="android_packages_apps_LiquidLauncher" remote="ls" revision="kitkat" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="kitkat" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Mms" name="Liquid-CPA/android_packages_apps_Mms" remote="gh" revision="kitkat"/>
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="kitkat"/>
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
