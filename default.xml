@@ -61,7 +61,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" remote="cm" revision="cm-11.0" />
-  <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
@@ -103,8 +103,8 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="ln" revision="linaro_android_4.4.3" />
-  <project path="external/embunit" name="platform/external/embunit" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/embunit" name="platform/external/embunit" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
@@ -114,7 +114,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
@@ -136,7 +136,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-11.0" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -177,9 +177,9 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="platform/external/llvm" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/llvm" name="platform/external/llvm" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-11.0" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
@@ -205,7 +205,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/openssl" name="android_external_openssl" remote="sr" revision="kk4.4" />
   <project path="external/oprofile" name="android_external_oprofile" remote="ls" revision="kitkat" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
@@ -226,26 +226,26 @@
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-11.0" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-11.0" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
-  <project path="external/stlport" name="platform/external/stlport" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/stlport" name="platform/external/stlport" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-11.0" />
   <project path="external/tinycompress" name="platform/external/tinycompress" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webp" name="android_external_webp" remote="ls" revision="kitkat" />
   <project path="external/webrtc" name="platform/external/webrtc" />
@@ -260,8 +260,8 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.3" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="ln" revision="linaro_android_4.4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="kitkat" />
@@ -274,7 +274,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.4" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="kitkat" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
@@ -285,7 +285,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.3" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.4" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
