@@ -21,11 +21,11 @@
 
   <remote  name="sr"
            fetch="git://github.com/SlimRoms/" />
-	
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-4.4.4_r1"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
