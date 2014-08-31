@@ -42,7 +42,7 @@
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
-  <project path="external/aac" name="android_external_aac" remote="sr" revision="kk4.4" />
+  <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-11.0" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-11.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -113,7 +113,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
-  <project path="external/flac" name="platform/external/flac" />
+  <project path="external/flac" name="android_external_flac" remote="cm" revision="cm-11.0" />
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
@@ -241,8 +241,8 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="sr" revision="kk4.4" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-11.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-11.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
