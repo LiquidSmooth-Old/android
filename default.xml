@@ -6,6 +6,9 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
+  <remote  name="gh"
+           fetch="git://github.com/" />
+
   <remote  name="lsd"
            fetch="https://github.com/LiquidSmooth-Devices/" />
 
