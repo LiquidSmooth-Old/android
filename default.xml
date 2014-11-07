@@ -23,7 +23,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="ls" revision="kitkat">
+  <project path="build" name="android_build" remote="ls" revision="lollipop">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
