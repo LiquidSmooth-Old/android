@@ -15,6 +15,9 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth" />
 
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod" />
+
   <remote  name="lsd"
            fetch="git://github.com/LiquidSmooth-Devices" />
 
