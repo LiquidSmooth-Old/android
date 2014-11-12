@@ -18,6 +18,9 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
+  <remote  name="sr"
+           fetch="git://github.com/SlimRoms" />
+
   <remote  name="lsd"
            fetch="git://github.com/LiquidSmooth-Devices" />
 
