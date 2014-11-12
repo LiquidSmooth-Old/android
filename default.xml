@@ -10,10 +10,10 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="gh"
-           fetch="git://github.com/" />
+           fetch="https://github.com/" />
 
   <remote  name="ls"
-           fetch="git://github.com/LiquidSmooth" />
+           fetch="https://github.com/LiquidSmooth" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
@@ -22,7 +22,7 @@
            fetch="git://github.com/SlimRoms" />
 
   <remote  name="lsd"
-           fetch="git://github.com/LiquidSmooth-Devices" />
+           fetch="https://github.com/LiquidSmooth-Devices" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -491,5 +491,5 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="vendor/cm" name="android_vendor_liquid" remote="ls" revision="lollipop"/>
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop"/>
 </manifest>
