@@ -48,3 +48,22 @@ Build LiquidSmooth with the following command
     
     time make liquid
 
+Uploading to the LiquidSmooth Gerrit
+---------------
+
+1st You must have local ssh keys on your computer if you do not here is a [guide] (http://goo.gl/86CfDP) to generate them.
+
+2nd Make an account on [Gerrit] (http://gerrit.liquidsmooth.net)
+
+3rd Add your ssh public key to your account
+
+4th Make your changes and commit them
+
+5th use the following command to push your commit to gerrit
+
+    git push ssh://USERNAME@gerrit.liquidsmooth.net/LiquidSmooth-Devices/REPO_NAME HEAD:refs/for/lollipop
+or
+
+    git push ssh://USERNAME@gerrit.liquidsmooth.net/LiquidSmooth/REPO_NAME HEAD:refs/for/lollipop
+
+Your work will then be reviewed
