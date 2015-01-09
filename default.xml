@@ -206,7 +206,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="ls" revision="lollipop" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
