@@ -12,6 +12,9 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
+  <remote  name="bt"
+           fetch="https://bitbucket.org/" />
+
   <remote  name="ls"
            fetch="https://github.com/LiquidSmooth" />
 
