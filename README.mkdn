@@ -1,68 +1,82 @@
-Welcome to SlimRoms
+![alt text](http://stats.liquidsmooth.net/images/logo2.png "LiquidSmooth")
+LiquidSmooth Source
 ===================
+To get started with LiquidSmooth, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
+Create the Directories
+----------------------
 
-Getting Started
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/liquid
+
+Install the Repository
+----------------------
+
+Enter the following to download the "repo" binary:
+
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+    chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/liquid
+
+Repositories:
 ---------------
 
-To get started with SlimLP, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+Before you continue --> run this in the terminal
 
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
+    repo init -u git://github.com/LiquidSmooth-Slim-Rebase/android.git -b lollipop
 
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the lp5.0-caf branch which pulls for the effected packages
-the correct caf version for you.
+    repo sync
+    
 
-To initialize your local repository using the SlimLP trees, use this command:
+Building the System
+---------------
 
+Build LiquidSmooth with the following command
 
-for google, exynos and non qcom devices:
+    . build/envsetup.sh
+    
+    lunch
+    
+    time make liquid
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0
+Uploading to the LiquidSmooth Gerrit
+---------------
 
+1st You must have local ssh keys on your computer if you do not here is a [guide] (http://goo.gl/86CfDP) to generate them.
 
-for qcom devices which are using CodeAuroraForum trees:
+2nd Make an account on [Gerrit] (http://gerrit.liquidsmooth.net)
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
+3rd Add your ssh public key to your account
 
+4th Make your changes and commit them
 
+5th use the following command to push your commit to gerrit
 
-Then sync up with this command:
+    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth-Devices/REPO_NAME HEAD:refs/for/lollipop
+or
 
-	repo sync
+    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth/REPO_NAME HEAD:refs/for/lollipop
 
+6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
 
+7th Do the following command and add the change id to the end of the commit message
 
-Submitting Patches
-------------------
+    git commit --amend
 
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
+Here is an example of what the commit message should look like:
 
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
+> Add how to push to gerrit
+>
+> Change-Id: I93949d30d732de35222d9d78d1f94e33e4bffc47
 
-Commit your patches in a single commit.
-
-Squash multiple commit using this command:
-
-	git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
-
-	git commit -a
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [SlimRoms Code Review](http://gerrit.slimroms.net)
+8th use the same command to push to gerrit and if you did everything properly it will be up on gerrit
