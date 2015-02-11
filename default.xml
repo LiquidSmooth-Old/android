@@ -31,7 +31,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="ls" revision="lollipop" >
+  <project path="build" name="LiquidSmooth-Slim-Rebase/android_build" remote="gh" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -488,7 +488,7 @@
   <project path="android" name="LiquidSmooth-Slim-Rebase/android" remote="github" revision="lollipop" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" />
+  <project path="vendor/liquid" name="LiquidSmooth-Slim-Rebase/android_vendor_liquid" remote="gh" revision="lollipop" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />
