@@ -503,7 +503,7 @@
 
   <project path="android" name="LiquidSmooth-Slim-Rebase/android" remote="github" revision="lollipop" />
 
-  <!-- New Additions for slim -->
+  <!-- New Additions for liquid -->
   <project path="vendor/liquid" name="LiquidSmooth-Slim-Rebase/android_vendor_liquid" remote="gh" revision="lollipop" />
 
   <!-- Slim file manager -->
