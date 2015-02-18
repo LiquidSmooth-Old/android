@@ -515,9 +515,6 @@
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.0" />
 
-  <!-- Liquid Tweaks -->
-  <project path="packages/apps/LS-Tweaks" name="android_packages_apps_LS-Tweaks" remote="lsr" revision="lollipop" />
-
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.0" />
 
