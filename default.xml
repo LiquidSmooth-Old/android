@@ -430,7 +430,7 @@
   <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="ls" revision="lollipop" />
-  <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="gh" revision="lp5.0" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="lsr" revision="lollipop" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.0-caf" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.0-caf" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
