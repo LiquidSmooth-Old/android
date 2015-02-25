@@ -508,7 +508,7 @@
   <project path="android" name="android" remote="lsr" revision="lollipop" />
 
   <!-- New Additions for liquid -->
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="lsr" revision="lollipop" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="lsr" revision="lollipop" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
 
