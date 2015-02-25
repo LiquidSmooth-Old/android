@@ -43,11 +43,30 @@ Building the System
 
 Build LiquidSmooth with the following command
 
-    . build/envsetup.sh
-    
-    lunch
-    
-    time make liquid
+    ./build-liquid.sh {options} {device}
+
+Use the following as options...
+---------------
+
+    Options:
+    -c# Cleanin options before build:
+            c1 - make clean
+            c2 - make dirty
+            c3 - make magic
+            c4 - make kernelclean
+    -d  Use dex optimizations
+    -i  Static Initlogo
+    -j# Set jobs
+    -s  Sync before build
+    -p  Build using pipe
+    -o# Select GCC O Level
+            Valid O Levels are
+            1 (Os) or 3 (O3)
+    -v  Verbose build output
+
+Example:
+---------------
+    ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
 
 Uploading to the LiquidSmooth Gerrit
 ---------------

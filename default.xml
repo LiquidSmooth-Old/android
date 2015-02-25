@@ -509,6 +509,8 @@
 
   <!-- New Additions for liquid -->
   <project path="vendor/liquid" name="android_vendor_liquid" remote="lsr" revision="lollipop" />
+    <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
+  </project>
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />
