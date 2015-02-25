@@ -62,7 +62,7 @@ Use the following as options...
     -o# Select GCC O Level
             Valid O Levels are
             1 (Os) or 3 (O3)
-    -v  Verbose build output
+    -z  create build log in 'build-logs'"
 
 Example:
 ---------------
