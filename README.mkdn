@@ -50,10 +50,11 @@ Use the following as options...
 
     Options:
     -c# Cleanin options before build:
-            c1 - make clean
-            c2 - make dirty
-            c3 - make magic
-            c4 - make kernelclean
+            c1 - make liquid
+            c2 - make clean
+            c3 - make dirty
+            c4 - make magic
+            c5 - make kernelclean
     -d  Use dex optimizations
     -i  Static Initlogo
     -j# Set jobs
