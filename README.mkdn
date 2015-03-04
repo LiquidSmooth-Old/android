@@ -28,6 +28,7 @@ Now enter the following to initialize the repository:
 
     cd ~/liquid
 
+
 Repositories:
 ---------------
 
