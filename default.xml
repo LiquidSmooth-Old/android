@@ -26,15 +26,12 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
-  <remote  name="lsr"
-           fetch="https://github.com/LiquidSmooth-Slim-Rebase" />
-
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="lsr" revision="lollipop" >
+  <project path="build" name="android_build" remote="ls" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -275,7 +272,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="lp5.0-caf" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="lsr" revision="lollipop" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="lollipop" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -330,7 +327,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="lp5.0-caf" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lsr" revision="lollipop" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="ls" revision="lollipop" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.0" />
@@ -349,7 +346,7 @@
   <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8660" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="lp5.0-caf" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="lp5.0" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lsr" revision="lollipop" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="ls" revision="lollipop" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/media-caf/apq8084" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8974" />
@@ -407,7 +404,7 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lsr" revision="lollipop" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="lollipop" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -431,7 +428,7 @@
   <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="ls" revision="lollipop" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="lsr" revision="lollipop" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="lollipop" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.0-caf" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.0-caf" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -506,10 +503,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="android" name="android" remote="lsr" revision="lollipop" />
+  <project path="android" name="android" remote="ls" revision="lollipop" />
 
   <!-- New Additions for liquid -->
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="lsr" revision="lollipop" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
 
