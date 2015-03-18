@@ -56,7 +56,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="lp5.0-caf" />
+  <project path="external/bluetooth/bluedroid" name="deadman96385/android_external_bluetooth_bluedroid" remote="github" revision="5.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="lp5.0" />
@@ -375,7 +375,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="lp5.0-caf" />
+  <project path="packages/apps/Bluetooth" name="deadman96385/packages_apps_Bluetooth" remote="github" revision="5.1" />
   <project path="packages/apps/BluetoothExt" name="SlimRoms/packages_apps_BluetoothExt" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="lp5.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
