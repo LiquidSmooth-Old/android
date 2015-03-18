@@ -31,7 +31,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="ls" revision="lollipop" >
+  <project path="build" name="android_build" remote="ls" revision="5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
