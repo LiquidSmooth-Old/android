@@ -4,7 +4,7 @@ LiquidSmooth Source
 To get started with LiquidSmooth, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-Create the Directories
+Create the Directories 
 ----------------------
 
 You will need to set up some directories in your build environment.
