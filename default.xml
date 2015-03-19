@@ -243,7 +243,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="lp5.0-caf" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="jsnweitzel/android_external_skia" remote="github" revision="5.1" />
+  <project path="external/skia" name="android_external_skia" remote="ls" revision="5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -275,7 +275,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="5.1" />
-  <project path="frameworks/base" name="jsnweitzel/android_frameworks_base" remote="gh" revision="5.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -328,7 +328,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="jsnweitzel/hardware_libhardware" remote="github" revision="5.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ls" revision="5.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="ls" revision="lollipop" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -406,7 +406,7 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="jsnweitzel/android_packages_apps_Settings" remote="gh" revision="5.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
