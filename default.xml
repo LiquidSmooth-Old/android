@@ -36,7 +36,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="deadman96385/android_art" remote="github" revision="5.1"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.0" />
+  <project path="bionic" name="android_bionic" remote="ls" revision="5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
