@@ -366,7 +366,8 @@
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="lp5.0" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="lp5.0" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.0" />
-  <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.0" />
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-12.0" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.0" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="lp5.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
