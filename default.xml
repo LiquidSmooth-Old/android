@@ -26,7 +26,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
-  <default revision="refs/tags/android-5.1.0_r1"
+  <default revision="refs/tags/android-5.1.0_r3"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -59,7 +59,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="staging/cm-12.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="lp5.0" />
+  <project path="external/busybox" name="RobbieL811/android_external_busybox" remote="github" revision="lp5.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -267,7 +267,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="lp5.0-caf" />
+  <project path="external/wpa_supplicant_8" name="RobbieL811/android_external_wpa_supplicant_8" remote="github" revision="lp5.0-caf" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -297,11 +297,11 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="github" revision="lp5.0-caf" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="lp5.0-caf" />
+  <project path="frameworks/opt/net/wifi" name="RobbieL811/frameworks_opt_net_wifi" remote="github" revision="lp5.0-caf" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="lp5.0-caf" />
+  <project path="frameworks/opt/telephony" name="RobbieL811/frameworks_opt_telephony" remote="github" revision="lp5.0-caf" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="lp5.0" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -332,24 +332,24 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="ls" revision="lollipop" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.0" />
+  <project path="hardware/qcom/audio" name="RobbieL811/hardware_qcom_audio" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/audio-caf/apq8084" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8226" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8660" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="lp5.0-caf-8660" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="lp5.0-caf" />
+  <project path="hardware/qcom/bt" name="RobbieL811/hardware_qcom_bt" remote="github" revision="lp5.0-caf" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.0" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.0" />
+  <project path="hardware/qcom/display" name="RobbieL811/hardware_qcom_display" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8226" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8960" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="lp5.0-caf-8660" />
-  <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="lp5.0-caf" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="lp5.0" />
+  <project path="hardware/qcom/fm" name="RobbieL811/hardware_qcom_fm" remote="github" revision="lp5.0-caf" />
+  <project path="hardware/qcom/gps" name="RobbieL811/hardware_qcom_gps" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="ls" revision="lollipop" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.0" />
+  <project path="hardware/qcom/media" name="RobbieL811/hardware_qcom_media" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/media-caf/apq8084" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8226" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="lp5.0-caf-8226" />
@@ -362,7 +362,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="lp5.0-caf" />  
+  <project path="hardware/qcom/wlan" name="RobbieL811/hardware_qcom_wlan" remote="github" revision="lp5.0-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="lp5.0" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="lp5.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="lp5.0" />
@@ -385,10 +385,10 @@
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="lp5.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="lp5.0-caf" />
-  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="lp5.0-caf" />
+  <project path="packages/apps/ContactsCommon" name="RobbieL811/packages_apps_ContactsCommon" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="lp5.0-caf" />
-  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Email" name="RobbieL811/packages_apps_Email" remote="github" revision="lp5.1" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="lp5.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="lp5.0" />
@@ -398,7 +398,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="lp5.0-caf" />
+  <project path="packages/apps/Nfc" name="RobbieL811/packages_apps_Nfc" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="SlimRoms/packages_apps_PackageInstaller" remote="github" revision="lp5.0" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ls" revision="lollipop" />
@@ -415,7 +415,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="lp5.0" />
+  <project path="packages/apps/UnifiedEmail" name="RobbieL811/packages_apps_UnifiedEmail" remote="github" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="ls" revision="lollipop" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -424,15 +424,15 @@
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="lp5.0-caf" />
+  <project path="packages/providers/TelephonyProvider" name="RobbieL811/packages_providers_TelephonyProvider" remote="github" revision="lp5.0-caf" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="ls" revision="lollipop" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="lollipop" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.0-caf" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.0-caf" />
+  <project path="packages/apps/Mms" name="RobbieL811/packages_apps_Mms" remote="github" revision="lp5.0-caf" />
+  <project path="packages/services/Telecomm" name="RobbieL811/packages_services_Telecomm" remote="github" revision="lp5.0-caf" />
+  <project path="packages/services/Telephony" name="RobbieL811/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
@@ -487,7 +487,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="lp5.0-caf" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.0-caf" />
-  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="lp5.0-caf" />
+  <project path="system/qcom" name="RobbieL811/android_system_qcom" remote="github" revision="lp5.0-caf" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="lp5.0-caf" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
