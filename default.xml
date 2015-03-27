@@ -507,8 +507,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="android" name="android" remote="ls" revision="lollipop" />
-
   <!-- New Additions for liquid -->
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
