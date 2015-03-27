@@ -45,7 +45,7 @@
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="development" name="SlimRoms/android_development" remote="github" revision="lp5.0" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/qcom/sepolicy" name="RobbieL811/device_qcom_sepolicy" remote="github" revision="lp5.0-caf" />
+  <project path="device/qcom/sepolicy" name="RobbieL811/device_qcom_sepolicy" remote="github" revision="lp5.0" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="lp5.0" />
   <project path="external/android-clat" name="android_external_android-clat" remote="ls" revision="5.1" />
   <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="lp5.0" />
@@ -506,8 +506,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
-  <project path="android" name="android" remote="ls" revision="lollipop" />
 
   <!-- New Additions for liquid -->
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" >
