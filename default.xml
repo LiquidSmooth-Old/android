@@ -500,7 +500,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- New Additions for liquid -->
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="5.1" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
 
