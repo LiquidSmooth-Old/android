@@ -414,6 +414,7 @@
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" remote="github" revision="lp5.1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="ls" revision="lollipop" />
@@ -424,6 +425,7 @@
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="lp5.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-12.1" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="lp5.1" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
