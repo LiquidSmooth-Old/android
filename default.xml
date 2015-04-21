@@ -36,7 +36,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
@@ -399,10 +399,10 @@
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="lp5.1-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="lp5.1" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="lp5.1" />
-<project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-12.1" />
-+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="cm" revision="cm-12.1" />
-+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-12.1" />
-+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-12.1" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-12.1" />
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="cm" revision="cm-12.1" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-12.1" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-12.1" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
