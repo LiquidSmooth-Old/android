@@ -346,7 +346,6 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8974" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="lp5.1" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8226" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1-caf-8226" />
@@ -389,7 +388,6 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="ls" revision="5.1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="lp5.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="lp5.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
@@ -410,7 +408,6 @@
   <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
   <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-12.1" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="lp5.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
