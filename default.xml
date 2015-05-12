@@ -472,6 +472,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
