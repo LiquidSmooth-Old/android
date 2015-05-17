@@ -17,6 +17,9 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
+  <remote  name="optipop"
+           fetch="https://github.com/OptiPop" />
+
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
@@ -258,7 +261,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="external_stlport" groups="pdk" remote="optipop" revision="opti-5.1"  />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
