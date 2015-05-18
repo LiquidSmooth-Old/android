@@ -20,6 +20,9 @@
   <remote  name="optipop"
            fetch="https://github.com/OptiPop" />
 
+  <remote name="sony"
+          fetch="git://github.com/sonyxperiadev/" />
+
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
