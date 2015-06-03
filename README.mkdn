@@ -83,10 +83,10 @@ Uploading to the LiquidSmooth Gerrit
 
 5th use the following command to push your commit to gerrit
 
-    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth-Devices/REPO_NAME HEAD:refs/for/lollipop
+    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth-Devices/REPO_NAME HEAD:refs/for/5.1
 or
 
-    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth/REPO_NAME HEAD:refs/for/lollipop
+    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth/REPO_NAME HEAD:refs/for/5.1
 
 6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
 
