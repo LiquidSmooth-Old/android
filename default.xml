@@ -528,7 +528,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- New Additions for LS -->
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lp5.1-layers" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lp5.1-layers" >
+    <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
+  </project>
 
   <!-- CM file manager -->
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-12.1" />
