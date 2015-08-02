@@ -564,4 +564,7 @@
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-12.1" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="ls" revision="lp5.1" />
 
+  <!-- CM External Resource Manager -->
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" revision="cm-12.1" />
+
 </manifest>
