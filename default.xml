@@ -567,4 +567,8 @@
   <!-- CM External Resource Manager -->
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="ls" revision="cm-12.1" />
 
+  <!-- Kernel Adiutor -->
+  <project path="packages/apps/KernelAdiutor" name="android_packages_apps_KernelAdiutor" remote="ls" revision="lp5.1" />
+  <project path="packages/apps/FloatingActionButton" name="android-floating-action-button" remote="ls" revision="lp5.1" />
+
 </manifest>
