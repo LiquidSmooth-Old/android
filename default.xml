@@ -32,7 +32,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
-  <default revision="refs/tags/android-5.1.1_r6"
+  <default revision="refs/tags/android-5.1.1_r9"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
