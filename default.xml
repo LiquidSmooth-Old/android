@@ -24,13 +24,13 @@
            fetch="https://bitbucket.org/" />
 
   <remote  name="ls"
-           fetch="https://github.com/Liquify/"
+           fetch="https://github.com/LiquidSmooth/"
            review="https://gerrit.liquidsmooth.net/"/>
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
-  <default revision="refs/tags/android-5.1.1_r9"
+  <default revision="refs/tags/android-5.1.1_r10"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -452,7 +452,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="lp5.1" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ls" revision="lp5.1" />
+  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.1" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
@@ -565,7 +565,7 @@
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="ls" revision="lp5.1" />
 
   <!-- CM External Resource Manager -->
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="ls" revision="cm-12.1" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="ls" revision="lp5.1" />
 
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="android_packages_apps_KernelAdiutor" remote="ls" revision="lp5.1" />
