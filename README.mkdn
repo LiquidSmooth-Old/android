@@ -34,7 +34,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/Liquify/android.git -b lp5.1
+    repo init -u git://github.com/LiquidSmooth/android.git -b lp5.1
 
     repo sync
     
