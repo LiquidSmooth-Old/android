@@ -24,7 +24,7 @@
            fetch="https://bitbucket.org/" />
 
   <remote  name="ls"
-           fetch="https://github.com/Liquify/"
+           fetch="https://github.com/LiquidSmooth/"
            review="https://gerrit.liquidsmooth.net/"/>
 
   <remote  name="cm"
