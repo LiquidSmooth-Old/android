@@ -435,6 +435,7 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Viper4Android" name="android_packages_apps_Viper4Android" remote="ls" revision="5.1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="lp5.1" />
