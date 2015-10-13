@@ -381,11 +381,11 @@
  
    <project path="android" name="android" remote="ls" revision="mm6.0" />
   
-   <project path="build" name="android_build" remote="gh" revision="mm6.0" >
+   <project path="build" name="android_build" remote="ls" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="gh" revision="mm6.0" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="mm6.0" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
   
