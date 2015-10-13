@@ -381,17 +381,17 @@
  
    <project path="android" name="android" remote="ls" revision="mm6.0" />
   
-   <project path="build" name="android_build" remote="ls" revision="mm6.0" >
+   <project path="build" name="android_build" remote="gh" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="mm6.0" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="gh" revision="mm6.0" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
   
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="mm6.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ls" revision="mm6.0" /> 
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="ls" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="ls" revision="mm6.0" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="ls" revision="mm6.0" />
@@ -417,7 +417,6 @@
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="mm6.0-staging" />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="mm6.0-staging" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="mm6.0-staging" />
-  <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="mm6.0-staging" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0-staging" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="mm6.0-staging" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="mm6.0-staging" />
@@ -427,7 +426,6 @@
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="mm6.0-staging" />
   <project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0-staging" />
   <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="github" revision="mm6.0-staging" />
-  <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" remote="github" revision="mm6.0-staging" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="mm6.0-staging" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="mm6.0-staging" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="mm6.0-staging" />
@@ -529,7 +527,9 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-13.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-13.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-13.0" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="cm" revision="cm-13.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-13.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-13.0" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-13.0" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="cm" revision="cm-13.0" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-13.0" />
@@ -541,8 +541,8 @@
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
   <project path="system/bt" name="android_system_bt" remote="cm" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" remote="cm" revision="cm-13.0" />
-  <project path="system/media" name="android_system_media" remote="cm" revision="cdcm-13.0" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-13.0" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="gh" revision="cm-13.0" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="cm-13.0" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-13.0" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" revision="cm-13.0" />
 
 </manifest>
