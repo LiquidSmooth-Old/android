@@ -406,7 +406,6 @@
   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0-staging"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="mm6.0-staging" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0-staging" />
-  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" remote="github" revision="mm6.0-staging" />
   <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="mm6.0-staging" />
   <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" remote="github" revision="mm6.0-staging" />
   <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" remote="github" revision="mm6.0-staging" />
@@ -476,7 +475,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="mm6.0-staging" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="mm6.0-staging" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="mm6.0-staging" />
-  <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />
+  <!--project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />-->
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="mm6.0-staging" />
@@ -497,7 +496,6 @@
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="mm6.0-staging" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="mm6.0-staging" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0-staging" />
-  <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0-staging" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0-staging" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0-staging" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0-staging" />
@@ -520,6 +518,7 @@
 <!-- CM REPOS -->
   
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-13.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-13.0" />
   <project path="external/brctl" name="android_external_brctl" remote="cm" revision="cm-13.0" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
