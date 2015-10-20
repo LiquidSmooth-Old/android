@@ -392,8 +392,7 @@
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="mm6.0" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
-  
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="mm6.0" />
+
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ls" revision="mm6.0" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="ls" revision="mm6.0" />
@@ -405,9 +404,9 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="mm6.0" />
   <!--project path="packages/apps/Viper4Android" name="android_packages_apps_Viper4Android" remote="ls" revision="mm6.0" />-->
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="ls" revision="mm6.0" />
-  
+
 <!-- SLIM REPOS -->
-   <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0-staging"  />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0-staging"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="mm6.0-staging" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="mm6.0-staging" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0-staging" />
@@ -533,6 +532,7 @@
   <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" revision="cm-13.0" />
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-13.0" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-13.0" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" remote="cm" revision="cm-13.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-13.0" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-13.0" />
