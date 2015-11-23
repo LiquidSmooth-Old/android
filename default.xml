@@ -339,7 +339,7 @@
   <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" remote="github" revision="mm6.0" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="SlimRoms/hardware_invensense" remote="github" revision="mm6.0" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="mm6.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ls" revision="mm6.0" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="mm6.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
