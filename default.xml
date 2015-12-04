@@ -498,7 +498,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
+  <project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
