@@ -39,8 +39,8 @@
   </project>
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="mm6.0"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="mm6.0" />
+  <project path="art" name="android_art" remote="cm" revision="cm-13.0"  />
+  <project path="bionic" name="android_bionic" remote="cm" revision="cm-13.0" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="mm6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -77,7 +77,7 @@
   <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" remote="github" revision="mm6.0" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" remote="github" revision="mm6.0" />
+  <project path="external/apache-http" name="android_external_apache-http" remote="cm" revision="cm-13.0" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
@@ -499,7 +499,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
