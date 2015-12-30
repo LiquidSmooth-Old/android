@@ -247,7 +247,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="mm6.0" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
