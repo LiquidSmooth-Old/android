@@ -263,7 +263,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="mm6.0" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="mm6.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -282,7 +282,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="mm6.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-13.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -322,8 +322,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="mm6.0" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="mm6.0" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-13.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/cyanogen" name="hardware_cyanogen" remote="ls" revision="mm6.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -351,8 +351,8 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
@@ -393,12 +393,13 @@
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ls" revision="mm6.0" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="mm6.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" revision="cm-13.0" />
-   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="ls" revision="mm6.0" />
@@ -497,13 +498,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
+  <project path="system/bt" name="android_system_bt" remote="cm" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
-  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="mm6.0" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="cm-13.0" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-13.0" />
@@ -544,7 +545,7 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
 
 
 <!-- New Additions for Liquid -->
