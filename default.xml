@@ -44,26 +44,10 @@
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="mm6.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="developers/build" name="platform/developers/build" />
-  <project path="developers/demos" name="platform/developers/demos" />
-  <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/qemu" name="device/generic/qemu" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ls" revision="mm6.0" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -128,12 +112,6 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
-  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
-  <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
@@ -509,20 +487,6 @@
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-13.0" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-13.0" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
