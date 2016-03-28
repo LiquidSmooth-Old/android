@@ -112,6 +112,7 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
@@ -227,7 +228,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0" />
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-13.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
@@ -242,7 +243,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
-  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" remote="github" revision="mm6.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
@@ -254,7 +255,7 @@
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="mm6.0" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-13.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
@@ -272,7 +273,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="mm6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" remote="cm" revision="cm-13.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="mm6.0" />
@@ -355,8 +356,8 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-13.0" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="mm6.0" />
@@ -481,9 +482,9 @@
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="cm" revision="cm-13.0" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-13.0" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-13.0" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-13.0" />
