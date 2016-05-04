@@ -68,7 +68,7 @@
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="mm6.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
@@ -246,7 +246,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
+  <project path="external/toybox" name="android_external_toybox" remote="cm" revision="cm-13.0" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
@@ -477,7 +477,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="android_system_bt" remote="cm" revision="cm-13.0" />
-  <project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="cm-13.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
